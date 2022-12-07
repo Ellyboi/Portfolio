@@ -1,0 +1,23 @@
+{
+  "name": "desktop-portfolio-website",
+  "version": "1.0.0",
+  "description": "-📗 Table of Contents\r -📖 About the Project\r -🛠 Built With\r -Tech Stack\r -Key Features\r -🚀 Live Demo\r -💻 Getting Started\r -Setup\r -Prerequisites\r -Install\r -Usage\r -Run tests\r -Deployment\r -👥 Authors\r -🔭 Future Features\r -🤝 Contributing\r -⭐️ Show your support\r -🙏 Acknowledgements\r -❓ FAQ\r -📝 License\r # SETUP AND MOBILE VERSION PORTFOLIO WEBSITE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ellyboi/Desktop-portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ellyboi/Desktop-portfolio-website/issues"
+  },
+  "homepage": "https://github.com/Ellyboi/Desktop-portfolio-website#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
