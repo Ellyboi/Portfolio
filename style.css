@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/**.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* Header **/
+
+/** header{
+min-height: 70px;
+padding-top: 30px;
+background: #3E3C3C;
+color: #ffffff;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  width: 63px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+#showcase{
+  background-color: #1C1A19;
+  background-image: url(./img/Illustration-header@2x.png);
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 100%;
+  background-size: 30%;
+}
+.name{
+  width: 566px;
+  height: 160px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  color: #F55800;
+  padding-top: 120px;
+}
+h2{
+  width: 566px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+p{
+  width: 566px;
+  height: 123px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #F4F5F7;
+  padding-top: 20px;
+  padding-bottom: 120px;
+
+}
+.media-icon{
+  padding: 0;
+  margin: 0;
+} 
+
+.media-icon ul{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    padding: 0.5rem;
+  
+}
+ .vector1{
+  padding-left: 18px;
+  padding-bottom: 15px;
+ }
+ .vector2{
+  padding-left: 15px;
+  padding-bottom: 15px;
+ }
+ .vector3{
+  padding-left: 15px;
+  padding-bottom: 10px;
+ }
+ .vector4{
+  padding-left: 5px;
+ }
+ .vector5{
+  padding-left: 5px;
+ }
+ /**Showcase***/
+
+ /** .recent{
+  width: 315px;
+  height: 52px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #091E42;
+  padding-left: 75px;
+  padding-top: 50px;
+ }
+ .bar {
+  width: auto;
+  height: 25px;
+  display: flex;
+  float: inline-end;
+  padding: auto;
+}
+
+#bar{
+  width: 570px;
+  height: 1px;
+  margin: 0 auto;
+  background: #0d151e;
+}
+**/
+
+
+
+
