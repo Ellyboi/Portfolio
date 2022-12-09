@@ -782,15 +782,16 @@ p {
 }
 
 .projects:hover {
-  background-color: #f0bf9c;
-  transition-duration: 0.05s;
+  background-color: #ebcbb4;
+  transition-duration: 0.06s;
   color: #ff6b00;
   cursor: pointer;
+  border: #ff6b00;
 }
 
 .projects1:hover {
   background-color: #f0bf9c;
-  transition-duration: 0.05s;
+  transition-duration: 0.06s;
   cursor: pointer;
   color: #ff6b00;
 }
