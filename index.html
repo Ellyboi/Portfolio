@@ -12,58 +12,189 @@
   </title>
 </head>
 <body>
- <header>
-  <div class="container">
-      <div id="branding">
-        <h1>Vitoesi Elijah</h1>
+  <main class="Container">
+    <header>
+      <div class="introduction">
+          <div id="branding">
+            <h1>Vitoesi Elijah</h1>
+          </div>
+          <nav>
+            <ul>
+              <li> <a href="#Portfolio" onclick="menuClose()">Portfolio</a></li>
+              <li> <a href="#About" onclick="menuClose()">About</a></li>
+              <li> <a href="#Contact" onclick="menuClose()">Contact</a></li>
+              <li><a id="closer" onclick="menuClose()">
+                <img src="img/Union.png" alt="Close" onclick="menuClose()"></a></li>
+            </ul>
+          </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Portfolio</a></li>
-          <li><a href="index.html">About</a></li>
-          <li><a href="index.html">Contact</a></li>
-          <li><a><img src="img/Union.png"> </a></li>
-        </ul>
-      </nav>
+     </header>
+      
+     <section id="Intro-myself">
+        <div class="introduction">
+          <h1 class="name">Hey There. <br>
+            I’m Elijah</h1>
+          <h2>I’am a Software Developer</h2>
+          <p>I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+            don’t hestiate to contact me.</p>
+        </div>
+        <div class="media-icon">
+          <ul>
+            <li class="vector1"><a href=""><img src="./img/Vector - Copy.png" alt=""></a></li>
+            <li class="vector2"><a href=""><img src="./img/Icon - Linkedin - Copy.png" alt=""></a></li>
+            <li class="vector3"><a href=""><img src="./img/Icon - Angelist.png" alt=""></a></li>
+            <li class="vector4"><a href=""><img src="./img/Disabled - Copy.png" alt=""></a></li>
+            <li class="vector5"><a href=""><img src="./img/Disabled3.png" alt=""></a></li>
+          </ul>
+        </div>
+     </section>
+
+               <!--RECENT WORKS SECTION-->
+     <section class="workcards">
+      <article class="workcard">
+        <div class="thande">
+          <h1 class="recent">My Recent Works</h1>
+          <div class="bar"><div id="bar"></div></div>
+        </div>
+       <div>
+         <div><img src="img/Img Placeholder.png" alt="" class="imgHOLD"></div>
+         <div class="storiesQ">
+            <h2 class="stories"> Multi-Post Stories</h2>
+            <p class="paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+            <div class="tags">
+              <ul>
+                <li class="tag css">css</li>
+                <li class="tag html">html</li>
+                <li class="tag bootstrap">bootstrap</li>
+                <li class="tag ruby">Ruby</li>
+              </ul>
+            </div>
+              <button class="projects">See project</button>
+          </div>
+       </div>
+      </article>
+     </section>
+
+     <section id="boxes">
+      <div class="box2"> 
+          <div class="box"> 
+            <div class="tags1">
+              <button class="projects1">See project</button>
+              </div>
+          </div>
+
+          <div class="boxQ"> 
+            <h2 class="stories1"> Data Dashboard <br>Healthcare</h2>
+            <p class="paragraph1">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <div class="tags1">
+                <ul>
+                  <li class="tag html1">html</li>
+                  <li class="tag bootstrap1">bootstrap</li>
+                  <li class="tag ruby1">Ruby</li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="boxR"> 
+            <h2 class="stories1"> Website Protfolio </h2>
+            <p class="paragraph1">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <div class="tags1">
+                <ul>
+                  <li class="tag html1">html</li>
+                  <li class="tag bootstrap1">bootstrap</li>
+                  <li class="tag ruby1">Ruby</li>
+                </ul>
+              </div>
+          </div>            
+        </div>
+
+
+        <div class="box2"> 
+          <div class="box1"> 
+            <h2 class="stories1"> Profesional Art <br>Printing Data More</h2>
+            <p class="paragraph1">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <div class="tags1">
+                <ul>
+                  <li class="tag html1">html</li>
+                  <li class="tag bootstrap1">bootstrap</li>
+                  <li class="tag ruby1">Ruby</li>
+                </ul>
+              </div>
+          </div>
+          <div class="boxQ"> 
+            <h2 class="stories1"> Data Dashboard <br>Healthcare</h2>
+            <p class="paragraph1">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <div class="tags1">
+                <ul>
+                  <li class="tag html1">html</li>
+                  <li class="tag bootstrap1">bootstrap</li>
+                  <li class="tag ruby1">Ruby</li>
+                </ul>
+              </div>
+          </div>
+         <div class="boxR"> 
+            <h2 class="stories1"> Website Protfolio </h2>
+            <p class="paragraph1">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <div class="tags1">
+                <ul>
+                  <li class="tag html1">html</li>
+                  <li class="tag bootstrap1">bootstrap</li>
+                  <li class="tag ruby1">Ruby</li>
+                </ul>
+              </div>
+          </div>            
+        </div>
+     </section>
+     <br><br><br><br><br>
+                               <!--ABOUT ME SECTION-->
+     <section class="about">
+      <div class="myselfQR">
+        <div>
+          <h2 class="myself">About me</h2>
+          <p id="paragraph3">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+          <button class="get">Get My Resume</button>
+       </div>
+        <img class="pics" src="img/Frame.png" alt="">
+      </div>
+      <div class="barQR"><div id="barQR"></div></div>
+
+    <div class="LanguageQ">
+      <div class="LANGTTT">
+          <ul id="list">
+            <li class="list"><img src="img/Rectangle 55@3x.png" alt="" class="image" >
+            <p class="langQ">Language</p></li>
+            <li class="lang1">Javascript</li>
+            <li class="lang2">Ruby</li>
+            <li class="lang3">Html</li>
+            <li class="lang4">Css</li>
+          </ul>  
+       </div>
+        <div class="LANGTTT">
+          <ul id="list">
+            <li class="listFRAM"><img src="img/Rectangle 55@3x.png" alt="" class="image4" >
+              <p class="langQ1">Frameworks</p></li>
+            <li class="lang1">Bootstrap</li>
+            <li class="lang2">Ruby on Rails</li>
+            <li class="lang3">RSPec</li>
+            <li class="lang4">CapyBara</li>
+            <li class="lang4">Selenium</li>
+          </ul>  
+        </div>
+
+        <div class="LANGTTT1">
+        <ul id="list">
+          <li class="listSKL"><img src="img/Rectangle 57.png" alt="" class="image5" >
+            <p class="langQ">Skills</p></li>
+          <li class="lang1">Codekit</li>
+          <li class="lang2">Github</li>
+          <li class="lang3">CodePen</li>
+          <li class="lang4">Gitlab</li>
+          <li class="lang4">Terminal</li>
+        </ul>  
+      </div>
   </div>
- </header>
-  
- <section id="showcase">
-    <div class="container">
-      <h1 class="name">Hey There. <br>
-        I’m Elijah</h1>
-      <h2>I’am a Software Developer</h2>
-      <p>I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-        don’t hestiate to contact me.</p>
-    </div>
-    <div class="media-icon">
-      <ul>
-        <li class="vector1"><a href=""><img src="./img/Vector - Copy.png" alt=""></a></li>
-        <li class="vector2"><a href=""><img src="./img/Icon - Linkedin - Copy.png" alt=""></a></li>
-        <li class="vector3"><a href=""><img src="./img/Icon - Angelist.png" alt=""></a></li>
-        <li class="vector4"><a href=""><img src="./img/Disabled - Copy.png" alt=""></a></li>
-        <li class="vector5"><a href=""><img src="./img/Disabled3.png" alt=""></a></li>
-      </ul>
-    </div>
- </section>
- <section class="workcards">
-  <article class="workcard">
-    <h1 class="recent">My Recent Works</h1>
-  
-    <div class="bar"><div id="bar"></div></div>
-    <div>
-    <h2 class="stories"> Multi-Post Stories</h2>
-    <p class="paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-      <div class="tags">
-        <ul>
-          <li class="tag css">css</li>
-          <li class="tag html">html</li>
-          <li class="tag bootstrap">bootstrap</li>
-          <li class="tag ruby">Ruby</li>
-        </ul>
-      </div>
-    <button class="projects"><span class="see-projects">See project</span></button>
-  </article>
- </section>
-</body>
+       
+  </section>
+    </body>
+  </main>
 </html>
