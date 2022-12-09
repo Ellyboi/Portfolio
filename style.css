@@ -786,7 +786,7 @@ p {
   transition-duration: 0.06s;
   color: #ff6b00;
   cursor: pointer;
-  border: #ff6b00;
+  border: #1a2236;
 }
 
 .projects1:hover {
@@ -800,7 +800,7 @@ p {
   background-color: #f0bf9c;
   transition-duration: 0.05s;
   cursor: pointer;
-  color: #ff6b00;
+  color: #1a2236;
 }
 
 .section-form {
