@@ -1,12 +1,15 @@
-/* stylelint-disable comment-empty-line-before */
-/* stylelint-disable property-no-unknown */
-/* stylelint-disable rule-empty-line-before */
 /* stylelint-disable declaration-block-semicolon-newline-after */
 /* stylelint-disable comment-whitespace-inside */
+/* stylelint-disable comment-empty-line-before */
 /* stylelint-disable indentation */
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -21,14 +24,15 @@
 }
 
 .introduction {
-  width: 80%;
+  width: 23.5rem;
   margin: auto;
   overflow: hidden;
   align-items: center;
 }
 
 /* Header **/
-header {
+
+ header {
   min-height: 70px;
   padding-top: 30px;
   background: #3c3c3c;
@@ -47,13 +51,15 @@ header a {
 }
 
 header li {
-  float: left;
-  display: inline;
+  display: inline-block;
   padding: 0 20px 0 20px;
+  line-height: 70px;
+  margin-bottom: 20px;
 }
 
 header #branding {
   float: left;
+  margin-top: 15px;
 }
 
 header #branding h1 {
@@ -64,8 +70,14 @@ header nav {
   float: right;
   margin-top: 10px;
 }
+
+a:hover {
+  background: none;
+  color: #ff6b00;
+}
+
 span {
-    content: "\2709";
+  content: "\2709";
   }
 
 #Intro-myself {
@@ -126,25 +138,27 @@ p {
   list-style-type: none;
 }
 
- .vector {
+.vector {
   padding-left: 16px;
   padding-bottom: 12px;
  }
 
- .vector4 {
+.vector4 {
   padding-left: 5px;
  }
 
- /**Showcase**/
+ /********** RECENT WORKS SECTION ************/
 
- .thande {
+.thande {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  padding-left: 6%;
  }
 
  .Multi-post {
-  padding-left: 5px;
+  position: relative;
+  justify-content: center;
+  padding-left: 10%;
  }
 
  .recent {
@@ -157,12 +171,12 @@ p {
   line-height: 52px;
   display: flex;
   color: #091e42;
-  padding-left: 95px;
+  padding-left: 80px;
   padding-top: 50px;
  }
 
  .bar {
-  width: 80%;
+  width: 70%;
   height: 25px;
   display: flex;
   padding: auto;
@@ -171,11 +185,11 @@ p {
 }
 
 #bar {
-  width: 89%;
+  width: 70%;
   height: 1px;
   margin: 0 auto;
   background: #28313b;
-  margin-left: 55px;
+  margin-left: 80px;
 }
 
 .stories {
@@ -203,11 +217,8 @@ p {
 }
 
 .storiesq {
-  width: 52%;
+  width: 48%;
   height: 48px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   float: right;
 }
 
@@ -359,24 +370,18 @@ p {
 .boxR {
   background: linear-gradient(180.45deg, rgba(238, 35, 35, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(img/Img\ Placeholder6.png);
   height: 435px;
-  width: 22%;
-}
-
-#boxes {
-  padding-top: 500px;
-  padding-left: 95px;
-  width: 100%;
+  width: 369px;
 }
 
 .box2 {
+  position: relative;
   width: 100%;
   height: 448px;
-  left: -0.5px;
-  bottom: 459px;
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 12px;
+  padding-top: 12px;
+  justify-content: center;
 }
 
 .stories1 {
@@ -565,7 +570,7 @@ p {
   padding-top: 25px;
 }
 
-.listFRAM {
+.listF {
   padding-right: 20px;
 }
 
@@ -713,7 +718,6 @@ p {
 }
 
 .barQR {
-  width: 100%;
   height: 25px;
   display: flex;
   padding: auto;
@@ -732,17 +736,7 @@ p {
 .Frameworks1 ul {
   list-style-type: none;
 }
-  /**Contact form**/
-#contact {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 24px;
-  gap: 58px;
-  height: 844px;
-  background-color: #fff;
-}
+      /** CONTACT FORM SECTION **/
 
 .contain {
   padding-top: 10px;
@@ -751,24 +745,13 @@ p {
 }
 
 .myform {
-  padding-left: 500px;
-}
-
-#message {
-  background-color: #fbf8f7;
-  width: 100%;
-  height: 100px;
-  padding-top: 10px;
-  color: #3c3a39;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  width: 50%;
+  padding-right: 16%;
+  margin-top: 50px;
 }
 
 #paragraph2 {
-  width: 455px;
+  width: 40%;
   height: 256px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -779,6 +762,27 @@ p {
   align-items: center;
   color: #262626;
   padding-top: 50px;
+  padding-left: 16%;
+}
+
+#message {
+  background-color: #fbf8f7;
+  width: 100%;
+  height: 70px;
+  padding-top: 10px;
+  color: #3c3a39;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  padding-left: 10px;
+}
+
+textarea {
+  margin-top: 40px;
+  min-height: 50px;
+  resize: none;
 }
 
 .projects:hover {
@@ -810,8 +814,13 @@ p {
   margin-top: 15px;
 }
 
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
 .form-control {
-  width: 320px;
+  width: 100%;
   padding-left: 15px;
   border: 0;
   border-bottom: 1px solid hsl(15, 5%, 85%);
@@ -823,10 +832,40 @@ p {
   min-height: 50px;
 }
 
-textarea {
-  margin-top: 40px;
+.col-sm-6 {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-control3 {
+  width: 47%;
+  border: 0;
+  border-bottom: 1px solid hsl(15, 5%, 85%);
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+  outline: 0 none transparent;
+  -webkit-appearance: none;
   min-height: 50px;
-  resize: none;
+  padding-right: -60px;
+}
+
+.form-control2 {
+  width: 47%;
+  margin-top: -60px;
+  border: 0;
+  float: right;
+  border-bottom: 1px solid hsl(15, 5%, 85%);
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+  outline: 0 none transparent;
+  -webkit-appearance: none;
+  min-height: 50px;
+}
+
+.row1 {
+  flex-direction: row;
 }
 
 .form-control:focus {
@@ -856,42 +895,23 @@ textarea {
   color: #ff6b00;
 }
 
-.col-sm-6 {
-  padding-bottom: 10px;
+footer ul li {
+  height: 20px;
+  margin: 0 auto;
+  padding: 10px 12px;
+  display: inline-block;
 }
 
-footer {
-  background-color: #fff;
+.footer-bar {
+  height: 25px;
+  display: flex;
+  padding: auto;
+  padding-bottom: -20px;
+}
+
+#footer-bar {
   width: 100%;
-  height: 70px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.bar1 {
-  width: auto;
-  height: 35px;
-  display: flex;
-  margin-top: 20px;
-  padding-left: 40px;
-}
-
-#bar1 {
-  width: 100px;
-  height: 4px;
-  margin: 0 auto;
-  background: #0d151e;
-  border-radius: 10px;
-  margin-top: -40px;
-}
-
-#barr {
-  width: 375px;
   height: 1px;
   margin: 0 auto;
-  background: #dee5ee;
-  border-radius: 10px;
-  margin-top: 155px;
+  background: hsl(15, 5%, 85%);
 }
