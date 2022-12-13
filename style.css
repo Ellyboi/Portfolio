@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 100vh;
   height: 4561px;
   background: #fff;
   margin: 0 auto;
@@ -141,14 +141,13 @@ p {
 }
 
 /*************************** RECENT WORKS SECTION ***************************/
-
 .thande {
   display: flex;
   flex-direction: row;
 }
 
 .recent {
-  width: 30%;
+  width: 35%;
   height: 52px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -171,7 +170,7 @@ p {
 }
 
 #bar {
-  width: 90%;
+  width: 88%;
   height: 1px;
   margin: 0 auto;
   background: #28313b;
@@ -205,18 +204,20 @@ p {
 .Multi-post {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 12px;
-  justify-content: center;
-  padding-left: 9%;
+  grid-gap: 10px;
+  padding-left: 7.5%;
+  width: auto;
 }
 
 .storiesq {
-  width: 48%;
+  width: 40%;
   height: 48px;
 }
 
 .img-placeholder {
   padding-top: 50px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .tags ul {
@@ -343,27 +344,31 @@ p {
 
 .box {
   background: url(img/Img\ Placeholder8.png);
-  height: 435px;
-  width: 369px;
+  height: 97%;
+  width: 97%;
+  background-repeat: no-repeat;
   border-style: solid;
 }
 
 .box1 {
   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(img/Img\ Placeholder8.png);
-  height: 435px;
-  width: 369px;
+  height: 97%;
+  width: 97%;
+  background-repeat: no-repeat;
 }
 
 .boxQ {
   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(img/Img\ Placeholder7.png);
-  height: 435px;
-  width: 369px;
+  height: 97%;
+  width: 97%;
+  background-repeat: no-repeat;
 }
 
 .boxR {
   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(img/Img\ Placeholder6.png);
-  height: 435px;
-  width: 369px;
+  height: 97%;
+  width: 97%;
+  background-repeat: no-repeat;
 }
 
 .box2 {
