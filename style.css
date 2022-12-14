@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 100vh;
+  width: 100%;
   height: 4561px;
   background: #fff;
   margin: 0 auto;
@@ -18,6 +18,8 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+
 
 /*************************** Header ******************************/
 
@@ -227,6 +229,7 @@ p {
   gap: 12px;
   width: 297px;
   height: 40px;
+  margin-bottom: 10px;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -305,7 +308,7 @@ p {
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  margin-top: 8px;
+  margin-bottom: 18px;
   gap: 10px;
   width: 124px;
   height: 50px;
@@ -317,19 +320,62 @@ p {
   border-top: #ff6b00;
 }
 
-.button-See-projects1 {
-  width: 100%;
-  position: relative;
-  top: 387px;
-  color: #fff;
-  font-weight: 800;
+.see_projects_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
   height: 48px;
   background: #ff6b00;
-  border-color: #ff6b00;
-  border-bottom: #ff6b00;
-  border-right: #ff6b00;
-  border-top: #ff6b00;
-  border-left: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  border: none;
+}
+
+.see_project_action_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  left: calc(50% - 124px / 2);
+  top: calc(50% - 48px / 2);
+  background: #ff6b00;
+  border: none;
+  text-align: center;
+}
+
+.action {
+  height: 48px;
+  left: 0;
+  right: 0;
+  background-color: #ff6b00;
+  display: flex;
+  visibility: hidden;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+  margin-top: 36px;
+}
+
+.btn_text {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .showcase {
@@ -342,36 +388,27 @@ p {
   gap: 24px;
 }
 
-.box {
-  background: url(img/Img\ Placeholder8.png);
-  height: 97%;
-  width: 97%;
-  background-repeat: no-repeat;
-  border-style: solid;
-}
-
-.box1 {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(img/Img\ Placeholder8.png);
-  height: 97%;
-  width: 97%;
-  background-repeat: no-repeat;
-}
-
 .boxQ {
   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(img/Img\ Placeholder7.png);
-  height: 97%;
+  height: 435px;
+  width: 369px;
   width: 97%;
   background-repeat: no-repeat;
+  left: calc(50% - 327px / 5);
+  bottom: 62px;
 }
 
 .boxR {
   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(img/Img\ Placeholder6.png);
-  height: 97%;
+  height: 435px;
+  width: 369px;
   width: 97%;
   background-repeat: no-repeat;
+  left: calc(50% - 327px / 5);
+  bottom: 62px;
 }
 
-.box2 {
+.showcase-boxes {
   position: relative;
   width: 1155px;
   height: 448px;
@@ -380,6 +417,7 @@ p {
   gap: 12px;
   padding-top: 12px;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   padding-left: 7.5%;
 }
 
@@ -484,6 +522,7 @@ p {
   padding-bottom: 400px;
   align-items: center;
   position: relative;
+  margin-top: 450px;
 }
 
 .myself {
@@ -752,27 +791,6 @@ textarea {
   resize: none;
 }
 
-.projects:hover {
-  background-color: #f0bf9c;
-  transition-duration: 0.05s;
-  color: #ff6b00;
-  cursor: pointer;
-}
-
-.projects1:hover {
-  background-color: #f0bf9c;
-  transition-duration: 0.05s;
-  cursor: pointer;
-  color: #ff6b00;
-}
-
-.get:hover {
-  background-color: #f0bf9c;
-  transition-duration: 0.05s;
-  cursor: pointer;
-  color: #ff6b00;
-}
-
 .section-form {
   padding-bottom: 20px;
 }
@@ -835,18 +853,6 @@ textarea {
   flex-direction: row;
 }
 
-.form-control:focus {
-  box-shadow: none;
-  border-bottom-color: #e1e1e1;
-}
-
-.project8:hover {
-  background-color: #f0bf9c;
-  transition-duration: 0.05s;
-  cursor: pointer;
-  color: #ff6b00;
-}
-
 footer ul li {
   height: 20px;
   margin: 0 auto;
@@ -871,4 +877,124 @@ footer ul li {
   height: 1px;
   margin: 0 auto;
   background: hsl(15, 5%, 85%);
+}
+
+.button-See-projects:hover {
+  background-color: #f0bf9c;
+  transition-duration: 0.05s;
+  color: #ff6b00;
+  cursor: pointer;
+}
+
+.button-See-projects1:hover {
+  background-color: #f0bf9c;
+  transition-duration: 0.05s;
+  cursor: pointer;
+  color: #ff6b00;
+}
+
+.get:hover {
+  background-color: #f0bf9c;
+  transition-duration: 0.05s;
+  cursor: pointer;
+  color: #ff6b00;
+}
+
+.boxQ:hover {
+  background: url(img/Img\ Placeholder8.png);
+  border-style: solid;
+}
+
+.boxR:hover {
+  background: url(img/Img\ Placeholder8.png);
+  border-style: solid;
+}
+
+button :hover {
+  box-sizing: border-box;
+  color: #f55800;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  height: 48px;
+  top: calc(50% - 48px / 2 + 46.5px);
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+button :active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  color: #fff;
+  width: 93px;
+  height: 48px;
+  left: 407px;
+  top: calc(100% - 48px / 2 + 46.5px);
+  background: #e05304;
+}
+
+button :disabled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
+  width: 93px;
+  height: 48px;
+  left: 564px;
+  top: calc(50% - 48px / 2 + 46.5px);
+  background: #f4f1f0;
+}
+
+.boxQ :hover + .action {
+  visibility: visible;
+}
+
+.boxQ:hover p {
+  visibility: hidden;
+}
+
+.boxQ:hover h2 {
+  visibility: hidden;
+}
+
+.boxQ:hover ul {
+  visibility: hidden;
+}
+
+.boxR :hover + .action {
+  visibility: visible;
+}
+
+.boxR:hover p {
+  visibility: hidden;
+}
+
+.boxR:hover h2 {
+  visibility: hidden;
+}
+
+.boxR:hover ul {
+  visibility: hidden;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-bottom-color: #e1e1e1;
+}
+
+.project8:hover {
+  background-color: #f0bf9c;
+  transition-duration: 0.05s;
+  cursor: pointer;
+  color: #ff6b00;
+}
+
+@media (max-width: 768px) {
+
 }
