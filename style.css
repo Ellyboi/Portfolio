@@ -752,10 +752,70 @@ p {
 
 .row {
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
   padding: 0;
   gap: 20px;
   width: 100%;
+=======
+  align-items: center;
+  color: #262626;
+  padding-top: 50px;
+}
+
+.projects:hover {
+  background-color: #ebcbb4;
+  transition-duration: 0.06s;
+  color: #ff6b00;
+  cursor: pointer;
+  border: #1a2236;
+}
+
+.projects1:hover {
+  background-color: #f0bf9c;
+  transition-duration: 0.06s;
+  cursor: pointer;
+  color: #ff6b00;
+}
+
+.get:hover {
+  background-color: #f0bf9c;
+  transition-duration: 0.05s;
+  cursor: pointer;
+  color: #1a2236;
+}
+
+.section-form {
+  padding-bottom: 20px;
+}
+
+.section-form .btn {
+  margin-top: 15px;
+}
+
+.form-control {
+  width: 320px;
+  padding-left: 15px;
+  border: 0;
+  border-bottom: 1px solid hsl(15, 5%, 85%);
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+  outline: 0 none transparent;
+  -webkit-appearance: none;
+  min-height: 50px;
+}
+
+textarea {
+  margin-top: 40px;
+  min-height: 50px;
+  resize: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-bottom-color: #e1e1e1;
+>>>>>>> dc33c146f42231a4dd6ab3880a605d75ab50683f
 }
 
 .project8 {
