@@ -1,3 +1,6 @@
+/* stylelint-disable no-eol-whitespace */
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable no-duplicate-selectors */
 * {
   margin: 0;
   padding: 0;
@@ -144,7 +147,7 @@ p {
   flex-direction: column;
   margin-bottom: 350px;
 }
- 
+
 .storiesq {
   width: 40%;
   height: 48px;
@@ -397,7 +400,7 @@ p {
   left: calc(50% - 327px / 5);
   bottom: 62px;
 }
- 
+
 .boxR {
   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(img/Img\ Placeholder6.png);
   height: 435px;
@@ -752,12 +755,6 @@ p {
 
 .row {
   display: flex;
-<<<<<<< HEAD
-  flex-direction: column;
-  padding: 0;
-  gap: 20px;
-  width: 100%;
-=======
   align-items: center;
   color: #262626;
   padding-top: 50px;
@@ -802,20 +799,12 @@ p {
   background-color: transparent;
   box-shadow: none;
   outline: 0 none transparent;
-  -webkit-appearance: none;
   min-height: 50px;
-}
-
-textarea {
-  margin-top: 40px;
-  min-height: 50px;
-  resize: none;
 }
 
 .form-control:focus {
   box-shadow: none;
   border-bottom-color: #e1e1e1;
->>>>>>> dc33c146f42231a4dd6ab3880a605d75ab50683f
 }
 
 .project8 {
@@ -853,14 +842,6 @@ textarea {
   resize: none;
 }
 
-.section-form {
-  padding-bottom: 20px;
-}
-
-.section-form .btn {
-  margin-top: 15px;
-}
-
 .form {
   display: flex;
   flex-direction: row;
@@ -875,7 +856,6 @@ textarea {
   background-color: transparent;
   box-shadow: none;
   outline: 0 none transparent;
-  -webkit-appearance: none;
   min-height: 50px;
 }
 
@@ -892,7 +872,6 @@ textarea {
   background-color: transparent;
   box-shadow: none;
   outline: 0 none transparent;
-  -webkit-appearance: none;
   min-height: 70px;
   padding-right: -60px;
 }
@@ -907,7 +886,6 @@ textarea {
   background-color: transparent;
   box-shadow: none;
   outline: 0 none transparent;
-  -webkit-appearance: none;
   min-height: 50px;
 }
 
@@ -940,7 +918,7 @@ footer ul li {
   margin: 0 auto;
   background: hsl(15, 5%, 85%);
 }
-*/
+
 .button-See-projects:hover {
   background-color: #f0bf9c;
   transition-duration: 0.05s;
@@ -1218,7 +1196,6 @@ button :disabled {
     font-size: 16px;
     line-height: 24px;
     color: #091e42;
-
   }
 
   .storiesq {
@@ -1269,7 +1246,6 @@ button :disabled {
     background-color: transparent;
     box-shadow: none;
     outline: 0 none transparent;
-    -webkit-appearance: none;
     min-height: 50px;
   }
 
@@ -1281,7 +1257,6 @@ button :disabled {
     background-color: transparent;
     box-shadow: none;
     outline: 0 none transparent;
-    -webkit-appearance: none;
     min-height: 70px;
   }
 
