@@ -28,6 +28,8 @@
  - There are two sections:
     - The toolbar(Header section)
     - The headline section (right after the header)
+ # Live Demo
+  - https://ellyboi.github.io/Desktop-portfolio-website/
     
  # 💻 GETTING STARTED
  
@@ -45,7 +47,7 @@
  - Deployed to GitHub
  
  ## 👥 VITOESI ELIJAH
-  - GitHub: [@Ellyboi] (https://ellyboi.github.io/Desktop-portfolio-website/)
+  - GitHub: [@Ellyboi] (https://ellyboi.github.io)
   - Twitter: [@Elijahvitoesi] (https://twitter.com/Elijahvitoesi)
   - LinkedIn: [Vitoesi Elijah] (https://www.linkedin.com/in/vitoesi-elijah-61961611a/)
   - Gmail contact: vitoesitemitope@gmail.com
