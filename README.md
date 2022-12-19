@@ -45,7 +45,7 @@
  - Deployed to GitHub
  
  ## 👥 VITOESI ELIJAH
-  - GitHub: [@Ellyboi] (https://ellyboi.github.io/Desktop-portfolio-website/)
+  - GitHub: [@Ellyboi] (https://github.com/Ellyboi)
   - Twitter: [@Elijahvitoesi] (https://twitter.com/Elijahvitoesi)
   - LinkedIn: [Vitoesi Elijah] (https://www.linkedin.com/in/vitoesi-elijah-61961611a/)
   - Gmail contact: vitoesitemitope@gmail.com
