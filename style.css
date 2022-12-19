@@ -1020,6 +1020,11 @@ button :disabled {
     margin-left: 1px;
   }
 
+  .branding {
+    align-items: center;
+    width: auto;
+  }
+
   .name {
     width: 327px;
     height: 124px;
@@ -1054,6 +1059,9 @@ button :disabled {
     line-height: 24px;
     color: #fff;
     margin-top: 20px;
+    margin-right: 20px;
+    align-items: center;
+    margin-left: -10px;
   }
 
   .media-icon ul {
@@ -1085,7 +1093,7 @@ button :disabled {
   }
 
   .bar {
-    width: 100%;
+    width: 90%;
     height: 1px;
     display: flex;
     background: #28313b;
@@ -1102,7 +1110,7 @@ button :disabled {
     width: 327px;
     height: 237px;
     background: url(img/Img\ Placeholder111.png);
-    margin-left: 75%;
+    margin-left: 65%;
   }
 
   .Multi-post {
@@ -1115,6 +1123,21 @@ button :disabled {
     width: 100vw;
     height: fit-content;
     margin-top: 180%;
+    margin-left: -30px;
+  }
+
+  .stories {
+    position: relative;
+    margin-left: -45px;
+    font-size: 30px;
+  }
+
+  .tags {
+    margin-left: -45px;
+  }
+
+  .button-See-projects {
+    margin-left: -45px;
   }
 
   .about {
@@ -1147,6 +1170,7 @@ button :disabled {
     font-size: 15px;
     line-height: 24px;
     color: #f4f5f7;
+    margin-left: -25px;
   }
 
   .LanguageQ {
@@ -1168,12 +1192,21 @@ button :disabled {
     font-size: 16px;
     line-height: 24px;
     color: #091e42;
+    margin-left: -70px;
   }
 
   .storiesq {
     margin-top: 50%;
     width: 100vw;
     margin-left: -15%;
+  }
+
+  .stories1 {
+    margin-left: 10px;
+  }
+
+  .paragraph1 {
+    margin-left: 10px;
   }
 
   #contact {
@@ -1248,5 +1281,6 @@ button :disabled {
     line-height: 44px;
     text-align: center;
     color: #172b4d;
+    margin-left: -45px;
   }
 }
