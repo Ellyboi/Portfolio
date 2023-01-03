@@ -1069,6 +1069,7 @@ button :disabled {
     position: fixed;
     left: -100%;
     top: 70px;
+    height: 100vh;
     gap: 0;
     flex-direction: column;
     background-color: #3c3c3c;
