@@ -42,6 +42,10 @@ header a {
   line-height: 20px;
 }
 
+.icon {
+  display: none;
+}
+
 header li {
   display: inline-block;
   padding: 0 20px 0 20px;
@@ -139,7 +143,7 @@ p {
 
 /*************************** RECENT WORKS SECTION ***************************/
 
-.workcards {
+#workcards {
   display: flex;
   flex-direction: column;
   margin-bottom: 350px;
@@ -397,6 +401,10 @@ p {
   bottom: 62px;
 }
 
+.tags1 {
+  margin-top: -40px;
+}
+
 .boxR {
   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(img/Img\ Placeholder6.png);
   height: 435px;
@@ -515,7 +523,7 @@ p {
 }
 
 /**************************** ABOUT ME SECTION **********************************/
-.about {
+#about {
   width: 100%;
   height: 450px;
   background: #262626;
@@ -1007,22 +1015,88 @@ button :disabled {
   color: #ff6b00;
 }
 
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.barr {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     margin: auto 0 12% 5%;
   }
 
-  header a {
-    display: none;
-  }
-
-  h1 {
-    margin-left: 1px;
+  header li {
+    display: block;
+    padding: 0 20px 0 20px;
+    line-height: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
   }
 
   .branding {
     align-items: center;
     width: auto;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: 25px;
+  }
+
+  .hamburger.active .barr:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .barr:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .barr:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    height: 100vh;
+    background-color: #3c3c3c;
+    gap: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: start;
+    transition: 0.3s;
+  }
+
+  #closer {
+    margin-left: 25px;
+  }
+
+  .nav-item {
+    margin: 30px 0;
+    margin-left: 25px;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .barra {
+    display: block;
+    width: 85%;
+    height: 1px;
+    margin: 5px auto;
+    background-color: #b9b3af;
   }
 
   .name {
@@ -1074,7 +1148,7 @@ button :disabled {
     flex: none;
     order: 3;
     flex-grow: 0;
-    margin-top: 9%;
+    margin-top: 75%;
     margin-left: 30px;
   }
 
@@ -1136,11 +1210,15 @@ button :disabled {
     margin-left: -45px;
   }
 
+  .tags1 {
+    margin-top: -65px;
+  }
+
   .button-See-projects {
     margin-left: -45px;
   }
 
-  .about {
+  #about {
     width: 100%;
     height: auto;
     margin-top: 10%;
@@ -1282,5 +1360,9 @@ button :disabled {
     text-align: center;
     color: #172b4d;
     margin-left: -45px;
+  }
+
+  .invisible {
+    display: none;
   }
 }

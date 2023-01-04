@@ -7,10 +7,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <title>My Portfolio Website
-  </title>
+  <title>My Portfolio Website</title>
 </head>
 <body>
   <main class="Container">
@@ -20,16 +20,25 @@
                       <div class="branding">
                         <h1>Vitoesi Elijah</h1>
                       </div>
-                      <nav>
-                          <ul>
+                      <nav id="toolbar">
+                          <ul class="nav-menu">
                             <li>
-                            <li> <a href="Portfolio">Portfolio</a></li>
-                            <li> <a href="About">About</a></li>
-                            <li> <a href="Contact">Contact</a></li>
+                            <li class="nav-item"> <a href="#workcards">Portfolio</a></li>
+                            <span class="barra"></span>
+                            <li class="nav-item"> <a href="#about">About</a></li>
+                            <span class="barra"></span>
+                            <li class="nav-item"> <a href="#contact">Contact</a></li>
+                            <span class="barra"></span>
                             <li><a id="closer">
                               <span>&#9993;</span>  </a></li>
                           </ul>
+                          <div class="hamburger">
+                            <span class="barr"></span>
+                            <span class="barr"></span>
+                            <span class="barr"></span>
+                          </div>
                       </nav>
+                      
                   </div>
               </header>
                     <!----------Header End---------->
@@ -44,7 +53,7 @@
                   </div>
                   <div class="media-icon">
                     <ul>
-                      <li class="vector"><a href=""><img src="./img/Vector - Copy.png" alt="Github></li>
+                      <li class="vector"><a href=""><img src="./img/Vector - Copy.png" alt="Github"></li>
                       <li class="vector"><a href=""><img src="./img/Icon - Linkedin - Copy.png" alt="Linkedin"></a></li>
                       <li class="vector"><a href="angelist"><img src="./img/Icon - Angelist.png" alt="redbubble"></a></li>
                       <li class="vector4"><a href=""><img src="./img/Disabled - Copy.png" alt="twitter"></a></li>
@@ -57,7 +66,7 @@
 
                <!--RECENT WORKS SECTION-->
               <section>
-                <div class="workcards">
+                <div id="workcards">
                         <div class="thande">
                           <div class="recent">My Recent Works</div>
                           <div class="bar"><div id="bar"></div><div>
@@ -193,7 +202,7 @@
       </section>
                                <!--ABOUT ME SECTION-->
      <section>
-              <div class="about">
+              <div id="about">
                         <div class="myselfqr">
                               <div>
                                 <h2 class="myself">About me</h2>
@@ -285,5 +294,6 @@
                   </ul>
                 </footer>
   </main>
+  <script src="index.js"></script>
 </body>
 </html>
