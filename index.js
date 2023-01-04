@@ -13,7 +13,7 @@ document.querySelectorAll('.nave-link').forEach((n) => n.addEventListener('click
 
 function closeNav() {
   navMenu.classList.toggle('invisible');
-  hamburger.classList.toggle("active");
+  hamburger.classList.toggle('active');
 }
 
 navMenu.addEventListener('click', closeNav);
