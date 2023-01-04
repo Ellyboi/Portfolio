@@ -1070,19 +1070,33 @@ button :disabled {
     left: -100%;
     top: 70px;
     height: 100vh;
-    gap: 0;
+    background-color: #3c3c3c;
+    gap: none;
     flex-direction: column;
     width: 100%;
-    text-align: center;
+    text-align: start;
     transition: 0.3s;
   }
 
+  #closer {
+    margin-left: 25px;
+  }
+
   .nav-item {
-    margin: 16px 0;
+    margin: 30px 0;
+    margin-left: 25px;
   }
 
   .nav-menu.active {
     left: 0;
+  }
+
+  .barra {
+    display: block;
+    width: 85%;
+    height: 1px;
+    margin: 5px auto;
+    background-color: #b9b3af;
   }
 
   .name {
@@ -1204,7 +1218,7 @@ button :disabled {
     margin-left: -45px;
   }
 
-  .about {
+  #about {
     width: 100%;
     height: auto;
     margin-top: 10%;
@@ -1347,8 +1361,8 @@ button :disabled {
     color: #172b4d;
     margin-left: -45px;
   }
-}
 
-.invisible {
-  display: none;
+  .invisible {
+    display: none;
+  }
 }
