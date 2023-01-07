@@ -316,7 +316,7 @@ p {
   padding: 12px;
   margin-top: 25px;
   gap: 10px;
-  width: 124px;
+  width: 125px;
   height: 50px;
   background: #ff6b00;
   border-color: #ff6b00;
@@ -370,7 +370,7 @@ p {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -389,7 +389,7 @@ p {
   flex-grow: 0;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 25px;
 }
 
 .boxQ {
@@ -418,7 +418,7 @@ p {
 
 .showcase-boxes {
   position: relative;
-  width: 1155px;
+  width: 1154px;
   height: 448px;
   left: -0.5px;
   gap: 12px;
@@ -468,7 +468,7 @@ p {
   flex: none;
   order: 0;
   flex-grow: 0;
-  height: 24px;
+  height: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -485,7 +485,7 @@ p {
   background: rgba(255, 255, 255, 0.24);
   flex: none;
   flex-grow: 0;
-  width: 60px;
+  width: 61px;
   height: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -497,7 +497,7 @@ p {
 .ruby1 {
   display: flex;
   flex-direction: row;
-  padding: 10px 12px;
+  padding: 10px 13px;
   width: 51px;
   background: rgba(255, 255, 255, 0.24);
   flex: none;
