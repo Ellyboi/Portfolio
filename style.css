@@ -1,3 +1,4 @@
+/* stylelint-disable no-eol-whitespace */
 * {
   margin: 0;
   padding: 0;
@@ -345,7 +346,7 @@ p {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 124px;
+  width: 120px;
   height: 48px;
   background: #ff6b00;
   border: none;
@@ -361,15 +362,15 @@ p {
   justify-content: center;
   text-align: center;
   z-index: 2;
-  margin-top: 36px;
-  visibility: hidden;
+  margin-top: 8px;
+  visibility: visible;
 }
 
 .btn_text {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -441,7 +442,7 @@ p {
   color: #fff;
   padding-left: 10px;
   position: relative;
-  top: 175px;
+  top: 145px;
 }
 
 .paragraph1 {
@@ -455,7 +456,7 @@ p {
   color: #fff;
   padding-left: 10px;
   position: relative;
-  top: 175px;
+  top: 140px;
 }
 
 .html1 {
@@ -496,7 +497,6 @@ p {
 .ruby1 {
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
   width: 51px;
   background: rgba(255, 255, 255, 0.24);
@@ -517,9 +517,8 @@ p {
   align-items: center;
   gap: 12px;
   width: 236px;
-  padding-left: 10px;
+  margin-left: 10px;
   position: relative;
-  top: 45px;
 }
 
 /**************************** ABOUT ME SECTION **********************************/
@@ -908,7 +907,7 @@ footer ul li {
 }
 
 .see_project_action_btn:hover {
-  background-color: #f0bf9c;
+  background-color: #ff6b00;
   transition-duration: 0.15s;
   cursor: pointer;
   color: #ff6b00;
@@ -922,26 +921,26 @@ footer ul li {
 }
 
 .boxQ:hover {
-  background: url(img/Card\ Works.png);
+  background: url(img/Img\ Placeholder8.png);
   border-style: solid;
 }
 
 .boxR:hover {
-  background: url(img/Card\ Works.png);
+  background: url(img/Img\ Placeholder8.png);
   border-style: solid;
 }
 
 button :hover {
   box-sizing: border-box;
-  color: #f55800;
+  color: #5044f7d3;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   height: 48px;
   top: calc(50% - 48px / 2 + 46.5px);
-  background: #fff5e1;
-  border: 1px solid #f55800;
+  background: #ff6b00;
+  border: 1px solid #ff6b00;
 }
 
 button :active {
@@ -973,6 +972,15 @@ button :disabled {
 
 .boxQ :hover + .action {
   visibility: hidden;
+}
+
+.modal_body p {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
 }
 
 .boxQ:hover p {
@@ -1028,6 +1036,133 @@ button :disabled {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #fff;
+}
+
+/* The Modal (background) */
+#myModal {
+  position: fixed;
+  display: none;
+  left: 0;
+  right: 0;
+  top: 0;
+  overflow: auto;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+/* Modal Content */
+.modal_content {
+  background-color: #fefefe;
+  padding: 35px;
+  margin: auto;
+  margin-top: 3%;
+  border: 1px solid rgb(59, 51, 51);
+  width: 80%;
+  height: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal_header h4 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-left: -80px;
+  margin-top: -40px;
+}
+
+.modal_header button {
+  border: 1px solid #979493;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3c3a39;
+}
+
+.modal_body {
+  float: right;
+  margin-left: 130%;
+  margin-top: -10%;
+}
+
+.modal_body button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 12px;
+  top: calc(50% - 48px / 2 + 264.5px);
+  background: #f55800;
+  border: none;
+  color: white;
+}
+
+.snapshoot_Portfolio {
+  position: absolute;
+  width: 459px;
+  height: 248px;
+  left: 8%;
+  top: 165px;
+  margin-left: 50px;
+}
+
+.button_container {
+  margin-bottom: 3rem;
+}
+
+#skills-btn-light {
+  margin-left: -61.5%;
+  margin-top: -20px;
+}
+
+#live-button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: -55px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hover_action :hover + .action {
+  visibility: visible;
+}
+
+.hover_action :hover p {
+  visibility: hidden;
+}
+
+.hover_action :hover h3 {
+  visibility: hidden;
+}
+
+.hover_action :hover ul {
+  visibility: hidden;
+}
+
+.hover_action :hover {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0) 61.94%), url('img/Img\ Placeholder8.png');
+}
+
+.form_item2 label {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -1148,7 +1283,7 @@ button :disabled {
     flex: none;
     order: 3;
     flex-grow: 0;
-    margin-top: 75%;
+    margin-top: -4%;
     margin-left: 30px;
   }
 
@@ -1364,5 +1499,111 @@ button :disabled {
 
   .invisible {
     display: none;
+  }
+
+  .modal_content {
+    background-color: #fefefe;
+    padding: 35px;
+    margin: auto;
+    margin-top: 3%;
+    border: 1px solid rgb(59, 51, 51);
+    width: 70%;
+    height: 130%;
+  }
+    
+  /* Buton Close */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10%;
+  }
+  
+  .modal_header h4 {
+    width: 240px;
+    height: 82px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-left: 50%;
+    text-align: center;
+    margin-top: -20%;
+  }
+  
+  .modal_header button {
+    border: 1px solid #979493;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #3c3a39;
+  }
+  
+  .modal_body {
+    width: 311px;
+    margin-top: 90%;
+    margin-left: 40%;
+    height: 220px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+  
+  .modal_body button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 12px;
+    top: calc(50% - 48px / 2 + 264.5px);
+    background: #f55800;
+    border: none;
+    color: white;
+  }
+  
+  .snapshoot_Portfolio {
+    position: absolute;
+    width: 311px;
+    height: 220px;
+    left: -4.5%;
+    top: 165px;
+    margin-left: 50px;
+    margin-top: 6%;
+  }
+  
+  .button_container {
+    margin-bottom: 3rem;
+  }
+  
+  #skills-btn-light {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+    width: 270px;
+    height: 36px;
+    margin-left: 65%;
+    margin-bottom: -10%;
+  }
+
+  #btni {
+    padding-top: 20px;
+  }
+  
+  #live-button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 60px;
+    justify-content: space-evenly;
   }
 }

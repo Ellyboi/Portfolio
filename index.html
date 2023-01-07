@@ -8,7 +8,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <title>My Portfolio Website</title>
 </head>
@@ -85,17 +84,16 @@
                                   <li class="tag ruby">Ruby</li>
                                 </ul>
                               </div>
-                                <button class="button-See-projects">See project</button>
+                                <button type="button" class="button-See-projects btn_text" onclick="openModal()"><span>See project</span></button>
                           </div>
                         </div>
                 </div>
+                
              </section>
 
 
-
-    
              <section>
-            <div class="showcase-boxes">
+            <div class="showcase-boxes" id="showcase-boxes">
                       <div class="boxQ other_works_item" > 
                               <h2 class="stories1"> Data Dashboard <br>Healthcare</h2>
                               <p class="paragraph1">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
@@ -107,7 +105,7 @@
                                       </ul>
                               </div>
                               <div class="action">
-                                <button type="button" class="see_project_action_btn"><span class="btn_text">See Project</span></button>
+                                <button type="button" class="see_project_action_btn btn_text" onclick="openModal()">See project</button>
                               </div>
                       </div>
 
@@ -123,8 +121,7 @@
                                      </ul>
                                 </div>
                                 <div class="action">
-                                  <button type="button" class="see_project_action_btn">
-                                   <span class="btn_text">See Project</span></button>
+                                  <button type="button" class="see_project_action_btn btn_text" onclick="openModal()">See project</button>
                                 </div>
                       </div>  
 
@@ -139,9 +136,7 @@
                                     </ul>
                               </div>
                               <div class="action">
-                                <button type="button" class="see_project_action_btn">
-                                    <span class="btn_text">See Project</span>
-                                </button>
+                                <button type="button" class="see_project_action_btn btn_text" onclick="openModal()">See project</button>
                                </div>
                       </div>
 
@@ -157,8 +152,7 @@
                                       </ul>
                                 </div>
                                 <div class="action">
-                                  <button type="button" class="see_project_action_btn">
-                                    <span class="btn_text">See Project</span></button>
+                                  <button type="button" class="see_project_action_btn btn_text" onclick="openModal()">See project</button>
                                 </div>
                     </div>  
 
@@ -169,14 +163,12 @@
                                 <div class="tags1">
                                     <ul>
                                       <li class="tag html1">html</li>
-                                      <li class="tag bootstrap1">bootstrap</li>
-                                      <li class="tag ruby1">Ruby</li>
+                                      <li class="tag html1">bootstrap</li>
+                                      <li class="tag html1">Ruby</li>
                                     </ul>
                                   </div>
                                   <div class="action">
-                                    <button type="button" class="see_project_action_btn">
-                                        <span class="btn_text">See Project</span>
-                                    </button>
+                                    <button type="button" class="see_project_action_btn btn_text" onclick="openModal()">See project</button>
                                 </div>
                       </div> 
 
@@ -189,12 +181,10 @@
                                     <li class="tag html1">html</li>
                                     <li class="tag bootstrap1">bootstrap</li>
                                     <li class="tag ruby1">Ruby</li>
-                                  </ul>
+                                  </ul>       
                                 </div>
                                 <div class="action">
-                                  <button type="button" class="see_project_action_btn">
-                                      <span class="btn_text">See Project</span>
-                                  </button>
+                                   <button type="button" class="see_project_action_btn btn_text" onclick="openModal()">See project</button>
                           </div>
                   </div>
 
@@ -259,32 +249,77 @@
   </section>
 
               <section id="contact" class="site-section section-form text-center">
-                <div class="contain">
+                <div class="contain form_item2">
                     <p class="contact-paragraph">I'm always interested in hearing about new projects, so if you'd like to chat please <br> get in touch.</p>
                    <form id="form" action="https://formspree.io/f/myyvrjyj" method="post" class="myform" >
                     <div class="row">
                       <div class="row1"> 
                         <div class="col-sm-6">
-                          <input type="text" name="name" class="form-control-FirstName" placeholder="First Name" maxlength="30" required>
+                          <label for="form-control-FirstName">FirstName</label>
+                          <input type="text" name="name" id="for_input1" class="form-control-FirstName" placeholder="Firstname" maxlength="30" required>
                         </div>
                         <div class="col-sm-6f">
-                          <input type="text" name="name" class="form-control-LastName" placeholder="Last Name" maxlength="30" required >
+                          <label for="form-control-LastName">LastName</label>
+                          <input type="text" name="name" id="form_input3" class="form-control-LastName" placeholder="Last Name" maxlength="30" required >
                         </div>
                       </div>
                     
                       <div class="col-sm-6">
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                        <label for="form-control">Email Address</label>
+                        <input type="email" name="email" id="form_imput2" class="form-control" placeholder="Email Address" required>
                       </div>
                       <div class="col-sm-6">
+                        <label for="form-control1">Enter text here....</label>
                           <textarea name="message" id="message" class="form-control" placeholder="Hello, Glad to see you..."  maxlength="500" required></textarea>
                       </div>
                     </div>
                           <button href="#" class="project8" type="submit" value="Get In touch">Get in touch</button>
+                          <span class="text-danger" id="validation_error_msg"></span>
                   </form>
                 </div>
+
+                <div id="myModal" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal_content">
+                      <span class="close" onclick="closeModal()">&times;</span>
+                      <div class="row modal_header">
+                          <h4>Keeping track of hundreds of components website</h4>
+                          <div id="skills-btn-light"   class="d-flex button_container">
+                              <button class="me-2 btn btn-light" type="button">html</button>
+                              <button class="me-2 btn btn-light" type="button">Bootstrap</button>
+                              <button class="btn btn-light" type="button">Ruby on rails</button>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md snapshoot_Portfolio">
+                              <img width="100%" src="img/snapshoot_Portfolio.png" alt="Snapshoot Portfolio">
+                          </div>
+                          <div class="col-md modal_body d-flex justify-content-between flex-column">
+                              <p>
+                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                  when an unknown printer took a galley of type and scrambled it 1960s with the
+                                  releaLorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                  when an unknown printer took a galley of type and scrambled it 1960s with the
+                                  releax map lapora verita.
+                              </p>
+                              <div id="live-button" class="d-flex">
+                                  <button class="me-2" type="button"><span class="btn_text">See Live&nbsp;<i
+                                              class="fa fa-location-arrow" aria-hidden="true"></i></span></button>
+                                  <button class="me-2" type="button"><span class="btn_text">See Source&nbsp;<i
+                                              class="fa fa-github" aria-hidden="true"></i></span></button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+
         </section>
-                <div class="footer-bar"><div id="footer-bar"></div></div>
-                <footer class="footerme">
+            <div class="footer-bar"><div id="footer-bar"></div></div>
+              <footer class="footerme">
                   <ul>
                     <li><a class="footer-m" href=""><img src="img/newvector.png" alt="Github"></a></li>
                     <li><a class="footer-m" href=""><img src="img/newGroup2.png" alt="Linkedin"></a></li>
