@@ -426,7 +426,7 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  margin-top: 38%;
+  margin-top: 41%;
   justify-content: space-evenly;
   padding-left: 8%;
 }
@@ -1113,7 +1113,7 @@ button :disabled {
   position: absolute;
   width: 459px;
   height: 248px;
-  left: 8%;
+  left: 5%;
   top: 165px;
   margin-left: 50px;
 }
@@ -1547,7 +1547,7 @@ button :disabled {
   .modal_body {
     width: 311px;
     margin-top: 90%;
-    margin-left: 40%;
+    margin-left: 50%;
     height: 220px;
     font-family: 'Inter', serif;
     font-style: normal;
@@ -1555,6 +1555,7 @@ button :disabled {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
+    text-align: left;
   }
   
   .modal_body button {
@@ -1575,7 +1576,7 @@ button :disabled {
     height: 220px;
     left: -4.5%;
     top: 165px;
-    margin-left: 50px;
+    margin-left: 90px;
     margin-top: 6%;
   }
   
