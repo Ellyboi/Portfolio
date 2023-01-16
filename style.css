@@ -578,15 +578,6 @@ body {
   display: flex;
 }
 
-.modal_body p {
-  font-family: 'Inter', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  color: #344563;
-}
-
 .form_item1 p {
   font-family: 'Inter', serif;
   font-style: normal;
@@ -596,6 +587,15 @@ body {
   text-align: start;
   color: #172b4d;
   width: 120%;
+}
+
+.modal_body p {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
 }
 
 .hover_action :hover p {
