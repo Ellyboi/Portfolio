@@ -1,28 +1,36 @@
-const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
+/* eslint-disable no-unused-vars */
+const toggleMenu = () => {
+  const menu = document.getElementById('menuIcon');
+  const header = document.getElementById('nav_');
+  const closeButton = document.getElementById('close_btn');
+  const toggleBars = document.getElementById('menu_hamburger');
 
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  navMenu.classList.toggle('active');
-});
+  if (!(menu.classList.contains('mobile_menu'))) {
+    closeButton.classList.add('show');
+    toggleBars.classList.add('hide');
+    menu.classList.add('mobile_menu');
+    header.classList.add('mobile_header');
+    menu.classList.remove('menu');
+  } else {
+    closeButton.classList.remove('show');
+    toggleBars.classList.remove('hide');
+    menu.classList.remove('mobile_menu');
+    header.classList.remove('mobile_header');
+    menu.classList.add('menu');
+  }
+};
 
-document.querySelectorAll('.nave-link').forEach((n) => n.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  navMenu.classList.remove('active');
-}));
-
-function closeNav() {
-  navMenu.classList.toggle('invisible');
-  hamburger.classList.toggle('active');
-}
-
-navMenu.addEventListener('click', closeNav);
-
-
+const hideMenu = () => {
+  document.getElementById('close_btn').classList.remove('show');
+  document.getElementById('menu_hamburger').classList.remove('hide');
+  document.getElementById('menuIcon').classList.remove('mobile_menu');
+  document.getElementById('nav_').classList.remove('mobile_header');
+  document.getElementById('menuIcon').classList.add('menu');
+};
 
 const projects = [
   {
-    id: 1, 
+    id: 1,
     title: 'Profesional Art Printing Data 1',
     modalTitle: 'Keeping track of hundreds of components website 1',
     modalImage: 'img/snapshoot_Portfolio.png',
@@ -30,7 +38,7 @@ const projects = [
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the in    dustrys standard dummy text ever since the 1500s, 
+      Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releax map lapora verita`,
     technologies: {
@@ -38,14 +46,13 @@ const projects = [
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io',
-    LinkToSource: 'https://github.com/Ellyboi',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standards',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
-
   {
-    id: 2, 
+    id: 2,
     title: 'Profesional Art Printing Data 2',
     modalTitle: 'Keeping track of hundreds of components website 2',
     modalImage: 'img/snapshoot_Portfolio.png',
@@ -53,7 +60,7 @@ const projects = [
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the in    dustrys standard dummy text ever since the 1500s, 
+      Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releax map lapora verita`,
     technologies: {
@@ -61,14 +68,13 @@ const projects = [
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io',
-    LinkToSource: 'https://github.com/Ellyboi',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
-
   {
-    id: 3, 
+    id: 3,
     title: 'Profesional Art Printing Data 3',
     modalTitle: 'Keeping track of hundreds of components website 3',
     modalImage: 'img/snapshoot_Portfolio.png',
@@ -76,7 +82,7 @@ const projects = [
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the in    dustrys standard dummy text ever since the 1500s, 
+      Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releax map lapora verita`,
     technologies: {
@@ -84,14 +90,13 @@ const projects = [
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io',
-    LinkToSource: 'https://github.com/Ellyboi',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
-
   {
-    id: 4, 
+    id: 4,
     title: 'Profesional Art Printing Data 4',
     modalTitle: 'Keeping track of hundreds of components website 4',
     modalImage: 'img/snapshoot_Portfolio.png',
@@ -99,7 +104,7 @@ const projects = [
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the in    dustrys standard dummy text ever since the 1500s, 
+      Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releax map lapora verita`,
     technologies: {
@@ -107,14 +112,13 @@ const projects = [
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io',
-    LinkToSource: 'https://github.com/Ellyboi',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
-
   {
-    id: 5, 
+    id: 5,
     title: 'Profesional Art Printing Data 5',
     modalTitle: 'Keeping track of hundreds of components website 5',
     modalImage: 'img/snapshoot_Portfolio.png',
@@ -122,7 +126,7 @@ const projects = [
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the in    dustrys standard dummy text ever since the 1500s, 
+      Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releax map lapora verita`,
     technologies: {
@@ -130,22 +134,21 @@ const projects = [
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io',
-    LinkToSource: 'https://github.com/Ellyboi',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
-
   {
-    id: 6, 
+    id: 6,
     title: 'Profesional Art Printing Data 6',
-    modalTitle: 'Keeping track of hundreds of components website 6',
+    modalTitle: 'Keeping track of hundreds of components website 7',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the in    dustrys standard dummy text ever since the 1500s, 
+      Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
       when an unknown printer took a galley of type and scrambled it 1960s with the 
       releax map lapora verita`,
     technologies: {
@@ -153,14 +156,14 @@ const projects = [
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io',
-    LinkToSource: 'https://github.com/Ellyboi',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
 ];
 
-// Get the modal element
+// Get the modal
 const modal = document.getElementById('myModal');
 
 // When the user clicks on (x), close the modal
@@ -172,7 +175,7 @@ function closeModal() {
 function openModal() {
   const modal = document.getElementById('myModal');
   const projectDetail = projects[projects.length - 1];
-  const header = document.createTextNode('Keeping track of hundreds of components website');
+  const header = document.createTextNode('Multi-Post Stories');
   const title = modal.childNodes[3].childNodes[3].childNodes[1];
   title.removeChild(modal.childNodes[3].childNodes[3].childNodes[1].childNodes[0]);
   modal.childNodes[3].childNodes[3].childNodes[1].appendChild(header);
@@ -190,17 +193,14 @@ function validateForm(e) {
   e.preventDefault();
   const email = document.getElementById('form_input2').value;
   const formObj = {
-    fistName: document.getElementById('form_input1').value,
+    name: document.getElementById('form_input1').value,
     email,
-    LastName: document.getElementById('form_input3').value,
-    email,
-    message: document.getElementById('message').value,
+    message: document.getElementById('form_input3').value,
   };
-
   const islowercase = checkLowerCase(email);
-  const form = document.getElementById('form');
+  const form = document.getElementById('contact_form');
   if (islowercase) {
-    form.action = 'https://formspree.io/f/myyvrjyj';
+    form.action = 'https://formspree.io/f/myyvrjpe';
     form.submit();
     localStorage.setItem('formObj', JSON.stringify(formObj));
   } else {
@@ -208,18 +208,14 @@ function validateForm(e) {
   }
 }
 
-// Validation form
-document.getElementsByClassName('form').addEventListener('submit', validateForm);
-
-
 const loadProjects = () => {
-  const container = document.getElementById('showcase-boxes');
+  const container = document.getElementById('other_works');
   for (let i = 0; i < projects.length; i += 1) {
     // Creating the divs
     const otherWorksItemDiv = document.createElement('div');
     const hoverActionDiv = document.createElement('div');
     const rightBlockBiv = document.createElement('div');
-    const heading = document.createElement('h2');
+    const heading = document.createElement('h3');
     const paragraph = document.createElement('p');
     const actionDiv = document.createElement('div');
     const button = document.createElement('button');
@@ -228,29 +224,29 @@ const loadProjects = () => {
     const listItems = [];
 
     // Creating text nodes
-    const h2Text = document.createTextNode(projects[i].title);
+    const h3Text = document.createTextNode(projects[i].title);
     const pText = document.createTextNode(projects[i].description);
-    const html1Text = document.createTextNode(projects[i].projectSkills[0]);
-    const boostrap1Text = document.createTextNode(projects[i].projectSkills[1]);
-    const ruby1Text = document.createTextNode(projects[i].projectSkills[2]);
+    const htmlText = document.createTextNode(projects[i].projectSkills[0]);
+    const boostrapText = document.createTextNode(projects[i].projectSkills[1]);
+    const rubyText = document.createTextNode(projects[i].projectSkills[2]);
     const buttonText = document.createTextNode('See Project');
 
     // Adding the classes
-    otherWorksItemDiv.classList.add('boxQ, other_works_item');
+    otherWorksItemDiv.classList.add('other_works_item1', 'other_works_item');
     hoverActionDiv.classList.add('hover_action');
-    rightBlockDiv.classList.add('boxQ');
+    rightBlockBiv.classList.add('right_block');
     actionDiv.classList.add('action');
     button.classList.add('see_project_action_btn');
-    list.classList.add('tags1');
+    list.classList.add('projects_stack');
     buttonSpan.classList.add('btn_text');
 
     // Appending the n+1 child to each div
-    heading.appendChild(h2Text);
+    heading.appendChild(h3Text);
     paragraph.appendChild(pText);
     // Loop through projecSkills to add text to list items
     for (let j = 0; j < projects[i].projectSkills.length; j += 1) {
       const listItem = document.createElement('li');
-      listItem.classList.add('tag', 'html1');
+      listItem.classList.add('projects_stack_item', 'projects_stack_item1');
       const span = document.createElement('span');
       const text = document.createTextNode(projects[i].projectSkills[j]);
       span.appendChild(text);
@@ -266,9 +262,9 @@ const loadProjects = () => {
     actionDiv.appendChild(button);
     buttonSpan.appendChild(buttonText);
     hoverActionDiv.appendChild(rightBlockBiv);
-    rightBlockDiv.appendChild(heading);
-    rightBlockDiv.appendChild(paragraph);
-    rightBlockDiv.appendChild(list);
+    rightBlockBiv.appendChild(heading);
+    rightBlockBiv.appendChild(paragraph);
+    rightBlockBiv.appendChild(list);
 
     button.addEventListener('click',
       () => {
@@ -287,4 +283,63 @@ const loadProjects = () => {
 window.onload = function () {
   // loading projects in work section
   loadProjects();
-}
+
+  // Validation form
+  document.getElementById('contact_form').addEventListener('submit', validateForm);
+
+  // Save data when typed
+  const formObj = JSON.parse(localStorage.getItem('formObj'));
+  const formDataToStore = {
+    name: '',
+    email: '',
+    message: '',
+  };
+  const name = document.getElementById('form_input1');
+  const email = document.getElementById('form_input2');
+  const message = document.getElementById('form_input3');
+
+  name.addEventListener('input', () => {
+    if (formObj) {
+      formObj.name = name.value;
+      localStorage.setItem('formObj', JSON.stringify(formObj));
+    } else {
+      console.log("does not exist")
+      formDataToStore.name = name.value;
+      localStorage.setItem('formObj', JSON.stringify(formDataToStore));
+    }
+  });
+  email.addEventListener('input', () => {
+    const islowercase = checkLowerCase(email.value);
+    if (islowercase) {
+      if (formObj) {
+        formObj.email = email.value;
+        localStorage.setItem('formObj', JSON.stringify(formObj));
+      } else {
+        formDataToStore.email = email.value;
+        localStorage.setItem('formObj', JSON.stringify(formDataToStore));
+      }
+    }
+  });
+  message.addEventListener('input', () => {
+    if (formObj) {
+      formObj.message = message.value;
+      localStorage.setItem('formObj', JSON.stringify(formObj));
+    } else {
+      formDataToStore.message = message.value;
+      localStorage.setItem('formObj', JSON.stringify(formDataToStore));
+    }
+  });
+
+  // Get form data in local storag if it exist
+  if (formObj) {
+    document.getElementById('form_input1').value = formObj.name;
+    document.getElementById('form_input2').value = formObj.email;
+    document.getElementById('form_input3').value = formObj.message;
+  }
+};
+
+window.onclick = function (event) {
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
+};
