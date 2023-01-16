@@ -163,15 +163,15 @@ const projects = [
   },
 ];
 
-// Get the modal
+// Bring the modal
 const modal = document.getElementById('myModal');
 
-// When the user clicks on (x), close the modal
+// click on (x), close the modal
 function closeModal() {
   document.getElementById('myModal').style.display = 'none';
 }
 
-// When the user clicks the button, open the modal
+// user clicks the button, the modal open
 function openModal() {
   const modal = document.getElementById('myModal');
   const projectDetail = projects[projects.length - 1];
