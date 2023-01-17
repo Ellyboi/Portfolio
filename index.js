@@ -281,13 +281,10 @@ const loadProjects = () => {
 };
 
 window.onload = function () {
-  // loading projects in work section
   loadProjects();
 
-  // Validation form
   document.getElementById('contact_form').addEventListener('submit', validateForm);
 
-  // Save data when typed
   const formObj = JSON.parse(localStorage.getItem('formObj'));
   const formDataToStore = {
     name: '',
@@ -330,7 +327,6 @@ window.onload = function () {
     }
   });
 
-  // Get form data in local storag if it exist
   if (formObj) {
     document.getElementById('form_input1').value = formObj.name;
     document.getElementById('form_input2').value = formObj.email;
