@@ -12,7 +12,7 @@ const toggleMenu = () => {
     header.classList.add('mobile_header');
     menu.classList.remove('menu');
   } else {
-    closeButton.classList.remove ('show');
+    closeButton.classList.remove('show');
     toggleBars.classList.remove('hide');
     menu.classList.remove('mobile_menu');
     header.classList.remove('mobile_header');
@@ -46,7 +46,7 @@ const projects = [
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-  LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
+    LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
     LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
@@ -182,6 +182,32 @@ function openModal() {
   document.getElementById('myModal').style.display = 'block';
 }
 
+const checkLowerCase = (str) => {
+  if (str === str.toLowerCase()) {
+    return true;
+  }
+  return false;
+};
+
+function validateForm(e) {
+  e.preventDefault();
+  const email = document.getElementById('form_input2').value;
+  const formObj = {
+    name: document.getElementById('form_input1').value,
+    email,
+    message: document.getElementById('form_input3').value,
+  };
+  const islowercase = checkLowerCase(email);
+  const form = document.getElementById('contact_form');
+  if (islowercase) {
+    form.action = 'https://formspree.io/f/myyvrjpe';
+    form.submit();
+    localStorage.setItem('formObj', JSON.stringify(formObj));
+  } else {
+    document.getElementById('validation_error_msg').innerHTML = 'Your email address should be in lowercase';
+  }
+}
+
 const loadProjects = () => {
   const container = document.getElementById('other_works');
   for (let i = 0; i < projects.length; i += 1) {
@@ -277,7 +303,7 @@ window.onload = function () {
       formObj.name = name.value;
       localStorage.setItem('formObj', JSON.stringify(formObj));
     } else {
-      console.log("does not exist")
+      console.log('does not exist');
       formDataToStore.name = name.value;
       localStorage.setItem('formObj', JSON.stringify(formDataToStore));
     }
