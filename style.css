@@ -1000,7 +1000,7 @@ button :disabled {
 
 @media screen and (max-width: 700px) {
   .work_head {
-    margin-bottom: 80px;
+    margin-bottom: 90px;
   }
 
   .recent_works_img {
@@ -1012,8 +1012,6 @@ button :disabled {
     align-items: flex-start;
     width: 90%;
     margin: 120px 5% 0 5%;
-
-    /* no unit */
   }
 
   .form_field_item4 {
@@ -1043,8 +1041,21 @@ button :disabled {
     width: 95%;
   }
 
+  .multi_post {
+    margin-top: 90px;
+    width: 100%;
+  }
+
+  .works_heading {
+    margin-left: 10px;
+  }
+
   .modal_header button {
     line-height: 16px;
+  }
+
+  .main_container h1 {
+    margin-top: 40px;
   }
 
   .modal_header h4 {
@@ -1106,10 +1117,6 @@ button :disabled {
     align-self: flex-end;
     padding-right: 24px;
   }
-
-  /* .mobile_header .flex_one {
-    align-self: flex-start;
-  } */
 
   .mobile_header .flex_two {
     padding-right: 0;
@@ -1190,10 +1197,6 @@ button :disabled {
     width: 100%;
   }
 
-  .multi_post {
-    width: 100%;
-  }
-
   .recent_works {
     flex-direction: column;
     margin-bottom: 120;
@@ -1215,6 +1218,10 @@ button :disabled {
     padding-bottom: 120px;
   }
 
+  .intro_item {
+    margin-bottom: 15%;
+  }
+
   .work_head {
     flex-direction: column;
   }
@@ -1223,7 +1230,6 @@ button :disabled {
     flex-direction: column;
   }
 
-  /** Skills */
   .skills {
     flex-direction: column;
     align-items: center;
@@ -1235,5 +1241,29 @@ button :disabled {
 
   .skill_item li {
     align-self: center;
+  }
+
+  .about_heading h3 {
+    margin-left: -40px;
+    margin-bottom: -50px;
+    margin-top: 50px;
+  }
+
+  .about p {
+    width: 10%;
+    height: 148px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: start;
+    margin-left: -30px;
+    margin-right: 90px;
+    margin-top: 20px;
+  }
+
+  #getresume {
+    margin-top: 40px;
   }
 }
