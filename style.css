@@ -449,12 +449,10 @@ body {
   height: 48px;
   left: 0;
   right: 0;
-
-  /* no unit */
   background-color: #ff6b00;
   display: flex;
 
-  /* visibility: hidden; */
+  /* visibility hidden; */
   justify-content: center;
   text-align: center;
   z-index: 2;
