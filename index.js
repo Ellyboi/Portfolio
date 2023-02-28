@@ -204,7 +204,7 @@ function validateForm(e) {
     form.submit();
     localStorage.setItem('formObj', JSON.stringify(formObj));
   } else {
-    document.getElementById('validation_error_msg').innerHTML = 'Your email address should be in lowercase';
+    document.getElementById('validation_error_msg').innerHTML = 'All the alphabets in your email address should be in lowercase';
   }
 }
 
