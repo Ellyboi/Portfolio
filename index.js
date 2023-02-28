@@ -163,15 +163,15 @@ const projects = [
   },
 ];
 
-// Bring the modal
+// Get the modal
 const modal = document.getElementById('myModal');
 
-// click on (x), close the modal
+// When the user clicks on (x), close the modal
 function closeModal() {
   document.getElementById('myModal').style.display = 'none';
 }
 
-// user clicks the button, the modal open
+// When the user clicks the button, open the modal
 function openModal() {
   const modal = document.getElementById('myModal');
   const projectDetail = projects[projects.length - 1];
@@ -204,7 +204,7 @@ function validateForm(e) {
     form.submit();
     localStorage.setItem('formObj', JSON.stringify(formObj));
   } else {
-    document.getElementById('validation_error_msg').innerHTML = 'Your email address should be in lowercase';
+    document.getElementById('validation_error_msg').innerHTML = 'All the alphabets in your email address should be in lowercase';
   }
 }
 
@@ -281,11 +281,53 @@ const loadProjects = () => {
 };
 
 window.onload = function () {
-  // loading projects in work section
   loadProjects();
 
-  // Validation form
+  // form Validation
   document.getElementById('contact_form').addEventListener('submit', validateForm);
+
+  // Data saved when typing
+  const formObj = JSON.parse(localStorage.getItem('formObj'));
+  const formDataToStore = {
+    name: '',
+    email: '',
+    message: '',
+  };
+  const name = document.getElementById('form_input1');
+  const email = document.getElementById('form_input2');
+  const message = document.getElementById('form_input3');
+
+  name.addEventListener('input', () => {
+    if (formObj) {
+      formObj.name = name.value;
+      localStorage.setItem('formObj', JSON.stringify(formObj));
+    } else {
+      console.log('does not exist');
+      formDataToStore.name = name.value;
+      localStorage.setItem('formObj', JSON.stringify(formDataToStore));
+    }
+  });
+  email.addEventListener('input', () => {
+    const islowercase = checkLowerCase(email.value);
+    if (islowercase) {
+      if (formObj) {
+        formObj.email = email.value;
+        localStorage.setItem('formObj', JSON.stringify(formObj));
+      } else {
+        formDataToStore.email = email.value;
+        localStorage.setItem('formObj', JSON.stringify(formDataToStore));
+      }
+    }
+  });
+  message.addEventListener('input', () => {
+    if (formObj) {
+      formObj.message = message.value;
+      localStorage.setItem('formObj', JSON.stringify(formObj));
+    } else {
+      formDataToStore.message = message.value;
+      localStorage.setItem('formObj', JSON.stringify(formDataToStore));
+    }
+  });
 
   // Get form data in local storag if it exist
   if (formObj) {
