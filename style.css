@@ -907,11 +907,11 @@ footer ul li {
   background: hsl(15, 5%, 85%);
 }
 
-.button-See-projects:hover {
+.see_project_action_btn:hover {
   background-color: #f0bf9c;
-  transition-duration: 0.05s;
-  color: #ff6b00;
+  transition-duration: 0.15s;
   cursor: pointer;
+  color: #ff6b00;
 }
 
 .get:hover {
