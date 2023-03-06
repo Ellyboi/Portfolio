@@ -914,13 +914,6 @@ footer ul li {
   cursor: pointer;
 }
 
-.see_project_action_btn:hover {
-  background-color: #f0bf9c;
-  transition-duration: 0.15s;
-  cursor: pointer;
-  color: #ff6b00;
-}
-
 .get:hover {
   background-color: #f0bf9c;
   transition-duration: 0.05s;
