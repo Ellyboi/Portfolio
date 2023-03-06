@@ -1208,6 +1208,57 @@ button :disabled {
     margin-right: 10%;
   }
 
+  .hamburger {
+    display: block;
+    margin-top: 25px;
+  }
+
+  .hamburger.active .barr:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .barr:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .barr:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    height: 100vh;
+    background-color: #3c3c3c;
+    gap: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: start;
+    transition: 0.3s;
+  }
+
+  #closer {
+    margin-left: 25px;
+  }
+
+  .nav-item {
+    margin: 30px 0;
+    margin-left: 25px;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .barra {
+    display: block;
+    width: 85%;
+    height: 1px;
+    margin: 5px auto;
+    background-color: #b9b3af;
+  }
+
   .name {
     font-family: "Roboto", serif;
     font-style: normal;
@@ -1284,5 +1335,9 @@ button :disabled {
 
   .skill_item li {
     align-self: center;
+  }
+
+  .invisible {
+    display: none;
   }
 }
