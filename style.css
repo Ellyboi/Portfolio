@@ -339,6 +339,13 @@ p {
   border: none;
 }
 
+.button-See-projects:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 1em #ff6b00;
+}
+
 .see_project_action_btn {
   display: flex;
   flex-direction: row;
