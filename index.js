@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const toggleMenu = () => {
   const menu = document.getElementById('menuIcon');
   const header = document.getElementById('nav_');
