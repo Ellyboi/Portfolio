@@ -18,11 +18,3 @@ const toggleMenu = () => {
     menu.classList.add('menu');
   }
 };
-
-const hideMenu = () => {
-  document.getElementById('close_btn').classList.remove('show');
-  document.getElementById('menu_hamburger').classList.remove('hide');
-  document.getElementById('menuIcon').classList.remove('mobile_menu');
-  document.getElementById('nav_').classList.remove('mobile_header');
-  document.getElementById('menuIcon').classList.add('menu');
-};
