@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 body {
   width: 100%;
   margin: 0;
@@ -101,10 +100,10 @@ body {
   order: 1;
   margin: 20% 5% 0 5%;
   margin-left: 2%;
+  margin-top: 50px;
 }
 
 .intro_item2 {
-  order: 0;
   margin: auto 2% auto 1%;
 }
 
@@ -133,7 +132,7 @@ body {
   font-size: 72px;
   line-height: 82px;
   color: #f55800;
-  margin-top: -18%;
+  margin-top: 15%;
 }
 
 .main_container h2 {
@@ -530,6 +529,25 @@ body {
   order: 0;
 }
 
+#my-other-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 90px;
+  margin-right: 70px;
+  margin-top: -90px;
+}
+
+#my-other-projects1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  justify-content: space-around;
+  margin-left: 90px;
+  margin-right: 70px;
+  margin-bottom: 80px;
+}
+
 .projects_stack_item2 {
   width: 95px;
   order: 1;
@@ -559,6 +577,8 @@ body {
   flex-direction: column;
   gap: 24px;
   left: 0;
+
+  /* no unit */
   padding-bottom: 89px;
 }
 
@@ -572,9 +592,21 @@ body {
   line-height: 88px;
   letter-spacing: 0.35px;
   color: #ff6b00;
-  margin-left: 45px;
   margin-top: -5%;
   display: flex;
+}
+
+.modal_body p {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+}
+
+.hover_action :hover p {
+  visibility: hidden;
 }
 
 #about p {
@@ -737,17 +769,6 @@ body {
   order: 1;
   margin-top: 20px;
   width: 100%;
-}
-
-.form_item1 p {
-  font-family: 'Inter', serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  text-align: start;
-  color: #172b4d;
-  width: 120%;
 }
 
 .form_field_item {
@@ -930,15 +951,6 @@ button :disabled {
   color: #3c3a39;
 }
 
-.modal_body p {
-  font-family: 'Inter', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  color: #344563;
-}
-
 .modal_body button {
   display: flex;
   flex-direction: row;
@@ -964,10 +976,6 @@ button :disabled {
 
 .hover_action :hover + .action {
   visibility: visible;
-}
-
-.hover_action :hover p {
-  visibility: hidden;
 }
 
 .hover_action :hover h3 {
@@ -1002,8 +1010,201 @@ button :disabled {
     margin-bottom: 80px;
   }
 
+  #my-other-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-right: 70px;
+    margin-top: -90px;
+  }
+
+  #my-other-projects1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-right: 70px;
+    margin-bottom: 80px;
+  }
+
+  .form_item1 p {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: start;
+    color: #172b4d;
+    width: 120%;
+  }
+
+  .about p {
+    width: 327px;
+    height: 148px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about h3 {
+    margin-top: 70px;
+  }
+
   .recent_works_img {
     text-align: center;
+  }
+
+  .form {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin: 120px 5% 0 5%;
+
+    /* no unit */
+  }
+
+  .form_field_item4 {
+    align-self: center;
+    justify-content: center;
+  }
+
+  .action {
+    display: flex;
+  }
+
+  .form_item {
+    align-self: center;
+  }
+
+  .form_item1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .modal_content {
+    width: 95%;
+  }
+
+  .modal_header button {
+    line-height: 16px;
+  }
+
+  .modal_header h4 {
+    margin-bottom: 17%;
+    font-family: 'Roboto', serif;
+    font-weight: 700;
+  }
+
+  .button_container {
+    margin-bottom: 2rem;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu_bar {
+    display: block !important;
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    justify-content: center;
+  }
+
+  .multi_post {
+    margin-top: 120px;
+    width: 100%;
+  }
+
+  .menu_bar a {
+    text-decoration: none;
+  }
+
+  .menu_bar #close_btn {
+    display: none;
+  }
+
+  .mobile_header .flex_one {
+    display: none;
+    align-self: flex-start;
+  }
+
+  .hide {
+    display: none !important;
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  .mobile_header {
+    flex-direction: column;
+    height: 100%;
+    padding-top: 10%;
+    gap: 15%;
+    justify-content: flex-start;
+  }
+
+  .mobile_header .menu_bar {
+    align-self: flex-end;
+    padding-right: 24px;
+  }
+
+  /* .mobile_header .flex_one {
+    align-self: flex-start;
+  } */
+
+  .mobile_header .flex_two {
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .mobile_header li {
+    margin-right: 10%;
+    margin-bottom: 5%;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    border-bottom: 1px solid #6f6c6b;
+  }
+
+  .mobile_menu {
+    display: block;
+  }
+
+  .mobile_menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .mobile_menu a {
+    color: white;
+    text-decoration: none;
+    transition: font-weight 200ms;
+  }
+
+  .mobile_menu a:hover {
+    color: #ff6b00;
+    font-weight: bold;
+  }
+
+  .mobile_menu li {
+    margin-right: 10%;
   }
 
   .intro_item {
@@ -1217,10 +1418,6 @@ button :disabled {
     width: 100%;
   }
 
-  .multi_post {
-    width: 100%;
-  }
-
   .recent_works {
     flex-direction: column;
     margin-bottom: 120;
@@ -1248,6 +1445,20 @@ button :disabled {
 
   .about_container {
     flex-direction: column;
+  }
+
+  /** Skills */
+  .skills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill_item {
+    align-items: center;
+  }
+
+  .skill_item li {
+    align-self: center;
   }
 
   /** Skills */
