@@ -1,19 +1,21 @@
-const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
+/* eslint-disable no-unused-vars */
+const toggleMenu = () => {
+  const menu = document.getElementById('menuIcon');
+  const header = document.getElementById('nav_');
+  const closeButton = document.getElementById('close_btn');
+  const toggleBars = document.getElementById('menu_hamburger');
 
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  navMenu.classList.toggle('active');
-});
-
-document.querySelectorAll('.nave-link').forEach((n) => n.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  navMenu.classList.remove('active');
-}));
-
-function closeNav() {
-  navMenu.classList.toggle('invisible');
-  hamburger.classList.toggle('active');
-}
-
-navMenu.addEventListener('click', closeNav);
+  if (!(menu.classList.contains('mobile_menu'))) {
+    closeButton.classList.add('show');
+    toggleBars.classList.add('hide');
+    menu.classList.add('mobile_menu');
+    header.classList.add('mobile_header');
+    menu.classList.remove('menu');
+  } else {
+    closeButton.classList.remove('show');
+    toggleBars.classList.remove('hide');
+    menu.classList.remove('mobile_menu');
+    header.classList.remove('mobile_header');
+    menu.classList.add('menu');
+  }
+};
