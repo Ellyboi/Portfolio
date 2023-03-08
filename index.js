@@ -19,6 +19,7 @@ const toggleMenu = () => {
     menu.classList.add('menu');
   }
 };
+<<<<<<< HEAD
 
 const hideMenu = () => {
   document.getElementById('close_btn').classList.remove('show');
@@ -343,3 +344,5 @@ window.onclick = function (event) {
     modal.style.display = 'none';
   }
 };
+=======
+>>>>>>> b81eefd65716b14264e734eb72db1338f500b45f

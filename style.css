@@ -559,8 +559,11 @@ body {
   flex-direction: column;
   gap: 24px;
   left: 0;
+<<<<<<< HEAD
 
   /* no unit */
+=======
+>>>>>>> b81eefd65716b14264e734eb72db1338f500b45f
   padding-bottom: 89px;
 }
 
@@ -1012,13 +1015,23 @@ button :disabled {
     margin-top: 190px;
   }
 
+<<<<<<< HEAD
+=======
+  .multi_post {
+    margin-top: 100px;
+  }
+
+>>>>>>> b81eefd65716b14264e734eb72db1338f500b45f
   .form {
     flex-direction: column;
     align-items: flex-start;
     width: 90%;
     margin: 120px 5% 0 5%;
+<<<<<<< HEAD
 
     /* no unit */
+=======
+>>>>>>> b81eefd65716b14264e734eb72db1338f500b45f
   }
 
   .form_field_item4 {
@@ -1050,6 +1063,7 @@ button :disabled {
 
   .form_item1 p {
     text-align: center;
+<<<<<<< HEAD
   }
 }
 
@@ -1062,6 +1076,36 @@ button :disabled {
     line-height: 16px;
   }
 
+=======
+  }
+
+  .about_block h3 {
+    margin-top: 60px;
+    margin-left: -40px;
+  }
+
+  #about p {
+    width: 327px;
+    height: 148px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: -25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .modal_content {
+    width: 95%;
+  }
+
+  .modal_header button {
+    line-height: 16px;
+  }
+
+>>>>>>> b81eefd65716b14264e734eb72db1338f500b45f
   .modal_header h4 {
     margin-bottom: 17%;
     font-family: 'Roboto', serif;
@@ -1122,10 +1166,13 @@ button :disabled {
     padding-right: 24px;
   }
 
+<<<<<<< HEAD
   /* .mobile_header .flex_one {
     align-self: flex-start;
   } */
 
+=======
+>>>>>>> b81eefd65716b14264e734eb72db1338f500b45f
   .mobile_header .flex_two {
     padding-right: 0;
     display: flex;
