@@ -32,7 +32,7 @@ const projects = [
   {
     id: 1,
     title: 'Profesional Art Printing Data Of Microverse A',
-    modalTitle: 'Keeping track of hundreds of components website 1',
+    modalTitle: 'Keeping track of hundreds of components Microverse website A',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -54,7 +54,7 @@ const projects = [
   {
     id: 2,
     title: 'Profesional Art Printing Data Of Microverse B',
-    modalTitle: 'Keeping track of hundreds of components website 2',
+    modalTitle: 'Keeping track of hundreds of components Microverse website B',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -76,7 +76,7 @@ const projects = [
   {
     id: 3,
     title: 'Profesional Art Printing Data Of Microverse C',
-    modalTitle: 'Keeping track of hundreds of components website 3',
+    modalTitle: 'Keeping track of hundreds of components Microverse website C',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -98,7 +98,7 @@ const projects = [
   {
     id: 4,
     title: 'Profesional Art Printing Data Of Microverse D',
-    modalTitle: 'Keeping track of hundreds of components website 4',
+    modalTitle: 'Keeping track of hundreds of components Microverse website D',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -120,7 +120,7 @@ const projects = [
   {
     id: 5,
     title: 'Profesional Art Printing Data Of Microverse E',
-    modalTitle: 'Keeping track of hundreds of components website 5',
+    modalTitle: 'Keeping track of hundreds of components Microverse website E',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -142,7 +142,7 @@ const projects = [
   {
     id: 6,
     title: 'Profesional Art Printing Data Of Microverse F',
-    modalTitle: 'Keeping track of hundreds of components website 7',
+    modalTitle: 'Keeping track of hundreds of components Microverse website F',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
