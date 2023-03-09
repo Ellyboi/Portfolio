@@ -303,7 +303,7 @@ window.onload = function () {
       formObj.name = name.value;
       localStorage.setItem('formObj', JSON.stringify(formObj));
     } else {
-      console.log("does not exist")
+      console.log('does not exist');
       formDataToStore.name = name.value;
       localStorage.setItem('formObj', JSON.stringify(formDataToStore));
     }
@@ -343,4 +343,3 @@ window.onclick = function (event) {
     modal.style.display = 'none';
   }
 };
-
