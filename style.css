@@ -1018,7 +1018,7 @@ button :disabled {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .work_head {
     margin-bottom: 80px;
   }
