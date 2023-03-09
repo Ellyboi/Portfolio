@@ -1120,11 +1120,6 @@ button :disabled {
     justify-content: center;
   }
 
-  .multi_post {
-    margin-top: 120px;
-    width: 100%;
-  }
-
   .menu_bar a {
     text-decoration: none;
   }
@@ -1212,7 +1207,8 @@ button :disabled {
   }
 
   .multi_post {
-    margin-top: 100px;
+    margin-top: 120px;
+    width: 100%;
   }
 
   .form {
@@ -1357,10 +1353,6 @@ button :disabled {
     border-bottom: 1px solid #6f6c6b;
   }
 
-  .mobile_menu {
-    display: block;
-  }
-
   .mobile_menu ul {
     display: flex;
     list-style-type: none;
@@ -1447,19 +1439,7 @@ button :disabled {
     flex-direction: column;
   }
 
-  /** Skills */
-  .skills {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .skill_item {
-    align-items: center;
-  }
-
-  .skill_item li {
-    align-self: center;
-  }
 
   /** Skills */
   .skills {
