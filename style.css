@@ -91,7 +91,7 @@ body {
   background-color: #1c1a19;
   background-image: url(./img/Illustration-header@2x.png);
   background-repeat: no-repeat;
-  background-position-y: 50%;
+  background-position-y: 93%;
   background-position-x: 100%;
   background-size: 28%;
 }
@@ -141,7 +141,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 44px;
   display: flex;
   align-items: center;
@@ -172,7 +172,7 @@ body {
   order: 3;
   margin-left: 50%;
   flex-grow: 0;
-  margin-bottom: -50%;
+  margin-top: -10%;
 }
 
 .social_media_head {
@@ -752,6 +752,19 @@ body {
   margin: 80px 10% 0 10%;
 }
 
+#contact p {
+  width: 455px;
+  height: 256px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+}
+
 .form_item {
   display: flex;
   flex-direction: column;
@@ -1016,7 +1029,7 @@ button :disabled {
     justify-content: space-around;
     margin-left: 90px;
     margin-right: 70px;
-    margin-top: -90px;
+    margin-top: -80px;
   }
 
   #my-other-projects1 {
@@ -1063,8 +1076,6 @@ button :disabled {
     align-items: flex-start;
     width: 90%;
     margin: 120px 5% 0 5%;
-
-    /* no unit */
   }
 
   .form_field_item4 {
@@ -1082,6 +1093,10 @@ button :disabled {
 
   .form_item1 {
     width: 100%;
+  }
+
+  .skill_header h3 {
+    margin-bottom: 90px;
   }
 }
 
@@ -1154,10 +1169,6 @@ button :disabled {
     padding-right: 24px;
   }
 
-  /* .mobile_header .flex_one {
-    align-self: flex-start;
-  } */
-
   .mobile_header .flex_two {
     padding-right: 0;
     display: flex;
@@ -1185,6 +1196,8 @@ button :disabled {
     list-style-type: none;
     justify-content: space-between;
     flex-direction: column;
+    background-color: #3c3a39;
+    padding-bottom: 300%;
   }
 
   .mobile_menu a {
@@ -1235,6 +1248,10 @@ button :disabled {
     width: 100%;
   }
 
+  .recent_works {
+    margin-bottom: 20px;
+  }
+
   .main_container p {
     width: 327px;
     height: 148px;
@@ -1251,7 +1268,7 @@ button :disabled {
 
   .about_block h3 {
     margin-top: 60px;
-    margin-left: -40px;
+    margin-left: 1px;
   }
 
   #about p {
@@ -1413,6 +1430,10 @@ button :disabled {
   .recent_works {
     flex-direction: column;
     margin-bottom: 120;
+  }
+
+  .intro_item {
+    margin-top: 10px;
   }
 
   .intro_item1 {
