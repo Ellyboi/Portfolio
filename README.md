@@ -47,11 +47,7 @@
  - Deployed to GitHub
  
  ## 👥 VITOESI ELIJAH
-<<<<<<< HEAD
-  - GitHub: [@Ellyboi] (https://ellyboi.github.io)
-=======
   - GitHub: [@Ellyboi] (https://github.com/Ellyboi)
->>>>>>> 9be537d94c48dd3855ead2d62406fd18869c35d7
   - Twitter: [@Elijahvitoesi] (https://twitter.com/Elijahvitoesi)
   - LinkedIn: [Vitoesi Elijah] (https://www.linkedin.com/in/vitoesi-elijah-61961611a/)
   - Gmail contact: vitoesitemitope@gmail.com
