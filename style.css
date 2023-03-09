@@ -1439,9 +1439,6 @@ button :disabled {
     flex-direction: column;
   }
 
-
-
-  /** Skills */
   .skills {
     flex-direction: column;
     align-items: center;
