@@ -311,7 +311,13 @@ window.onload = function () {
   email.addEventListener('input', () => {
     const islowercase = checkLowerCase(email.value);
     if (islowercase) {
-      
+      if (formObj) {
+        formObj.email = email.value;
+        localStorage.setItem('formObj', JSON.stringify(formObj));
+      } else {
+        formDataToStore.email = email.value;
+        localStorage.setItem('formObj', JSON.stringify(formDataToStore));
+      }
     }
   });
   message.addEventListener('input', () => {
