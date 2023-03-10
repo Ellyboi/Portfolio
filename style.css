@@ -57,7 +57,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 25px;
-  line-height: 42px;
+  line-height: 43px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -70,7 +70,7 @@ body {
 }
 
 .flex_two {
-  padding-right: 35px;
+  padding-right: 36px;
 }
 
 .main_container {
@@ -129,7 +129,7 @@ body {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 72px;
+  font-size: 73px;
   line-height: 82px;
   color: #f55800;
   margin-top: 15%;
@@ -214,7 +214,7 @@ body {
 
 .works {
   width: 90%;
-  margin: 120px 5% 24px 5%;
+  margin: 120px 5% 25px 5%;
 }
 
 /** Works */
@@ -1101,21 +1101,23 @@ button :disabled {
 
   #myModal {
     box-sizing: border-box;
+    display: flex;
     display: none;
     align-items: center;
     padding: 16px;
     gap: 24px;
     position: fixed;
     width: 320px;
-    height: 718px;
+    height: 200px;
     top: 50px;
     margin-top: 30px;
     margin-left: 10px;
     background: #fff;
     border: 1px solid #dfe1e6;
-    overflow: auto;
+    overflow: visible;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
   }
 }
 
