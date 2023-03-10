@@ -57,7 +57,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 25px;
-  line-height: 42px;
+  line-height: 43px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -70,7 +70,7 @@ body {
 }
 
 .flex_two {
-  padding-right: 35px;
+  padding-right: 36px;
 }
 
 .main_container {
@@ -124,12 +124,12 @@ body {
 }
 
 .main_container h1 {
-  width: 566px;
-  height: 160px;
+  width: 567px;
+  height: 161px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 72px;
+  font-size: 73px;
   line-height: 82px;
   color: #f55800;
   margin-top: 15%;
@@ -186,7 +186,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px;
+  padding: 9px;
   border-radius: 8px;
   flex: none;
   flex-grow: 0;
@@ -214,7 +214,7 @@ body {
 
 .works {
   width: 90%;
-  margin: 120px 5% 24px 5%;
+  margin: 120px 5% 25px 5%;
 }
 
 /** Works */
@@ -228,7 +228,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  gap: 24px;
+  gap: 25px;
   flex: none;
   order: 0;
   flex-grow: 0;
