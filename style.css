@@ -14,8 +14,8 @@ body {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
-  margin-top: 15px;
-  margin-right: 25%;
+  margin-top: 16px;
+  margin-right: 26%;
 }
 
 .menu a {
@@ -124,8 +124,8 @@ body {
 }
 
 .main_container h1 {
-  width: 566px;
-  height: 160px;
+  width: 567px;
+  height: 161px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -186,7 +186,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px;
+  padding: 9px;
   border-radius: 8px;
   flex: none;
   flex-grow: 0;
@@ -228,7 +228,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  gap: 24px;
+  gap: 25px;
   flex: none;
   order: 0;
   flex-grow: 0;
