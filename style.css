@@ -15,7 +15,7 @@ body {
   list-style-type: none;
   justify-content: space-evenly;
   margin-top: 15px;
-  margin-right: 25%;
+  margin-right: 26%;
 }
 
 .menu a {
@@ -44,7 +44,7 @@ body {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 2;
   font-weight: 800;
 }
 
@@ -142,7 +142,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
-  line-height: 44px;
+  line-height: 45px;
   display: flex;
   align-items: center;
   color: #fff;
