@@ -30,6 +30,7 @@
     - The headline section (right after the header)
  # Live Demo
   - [Live link](https://ellyboi.github.io/Desktop-portfolio-website/)
+  - [Live video Outline](https://www.loom.com/share/cf39800dc12044aabd526d0c3eebc096)
     
  # 💻 GETTING STARTED
  
