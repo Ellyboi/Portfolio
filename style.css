@@ -368,6 +368,41 @@ body {
   border: none;
 }
 
+
+.button-See-projects:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 1em #ff6b00;
+}
+
+.see_project_action_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  border: none;
+  text-align: center;
+}
+
+.action {
+  height: auto;
+  left: 0;
+  right: 0;
+  background-color: #ff6b00;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+  margin-top: 36px;
+  visibility: hidden;
+}
+
+
 .btn_text {
   font-family: 'Inter', serif;
   font-style: normal;
@@ -1059,6 +1094,13 @@ w
   width: 100%;
 }
 
+
+.see_project_action_btn:hover {
+  background-color: #f0bf9c;
+  transition-duration: 0.15s;
+  cursor: pointer;
+  color: #ff6b00;
+
 .form_field_item {
   margin-bottom: 35px;
 }
@@ -1069,7 +1111,7 @@ w
   border-left: none;
   border-bottom: 1px solid #dbd8d7;
   width: 100%;
-  padding-bottom: 0.8rem;
+
 }
 
 .form_field_item textarea {
