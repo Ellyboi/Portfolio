@@ -29,7 +29,8 @@
     - The toolbar(Header section)
     - The headline section (right after the header)
  # Live Demo
-  - [Live link](https://ellyboi.github.io/Desktop-portfolio-website/)
+  - [Live link](https://ellyboi.github.io/Portfolio/)
+  - [Live video Outline](https://www.loom.com/share/cf39800dc12044aabd526d0c3eebc096)
     
  # 💻 GETTING STARTED
  
@@ -47,11 +48,8 @@
  - Deployed to GitHub
  
  ## 👥 VITOESI ELIJAH
-<<<<<<< HEAD
+
   - GitHub: [@Ellyboi] (https://ellyboi.github.io)
-=======
-  - GitHub: [@Ellyboi] (https://github.com/Ellyboi)
->>>>>>> 9be537d94c48dd3855ead2d62406fd18869c35d7
   - Twitter: [@Elijahvitoesi] (https://twitter.com/Elijahvitoesi)
   - LinkedIn: [Vitoesi Elijah] (https://www.linkedin.com/in/vitoesi-elijah-61961611a/)
   - Gmail contact: vitoesitemitope@gmail.com
@@ -73,4 +71,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+ct is [MIT](./MIT.md) licensed.
+
+This project is [MIT](./LICENSE) licensed.
