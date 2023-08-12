@@ -31,8 +31,11 @@ const hideMenu = () => {
 const projects = [
   {
     id: 1,
-    title: 'Profesional Art Printing Data, Microverse A',
-    modalTitle: 'Keeping track of hundreds of Microverse components website A',
+Title: 'Keeping track of hundreds of Microverse components website A',
+
+    title: 'Profesional Art Printing Data Of Microverse A',
+    modalTitle: 'Keeping track of hundreds of components Microverse website A',
+
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -48,13 +51,16 @@ const projects = [
     },
     LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
     LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+
+    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
+
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
   {
     id: 2,
-    title: 'Profesional Art Printing Data, Microverse B',
-    modalTitle: 'Keeping track of hundreds of Microverse components website B',
+
+    title: 'Profesional Art Printing Data Of Microverse B',
+    modalTitle: 'Keeping track of hundreds of components Microverse website B',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -70,13 +76,14 @@ const projects = [
     },
     LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
     LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+
+    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
   {
     id: 3,
-    title: 'Profesional Art Printing Data, Microverse C',
-    modalTitle: 'Keeping track of hundreds of Microvers components website C',
+    title: 'Profesional Art Printing Data Of Microverse C',
+    modalTitle: 'Keeping track of hundreds of components Microverse website C',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -92,13 +99,17 @@ const projects = [
     },
     LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
     LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+
+    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
+
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
   {
     id: 4,
-    title: 'Profesional Art Printing Data, Microverse D',
-    modalTitle: 'Keeping track of hundreds of Microvers components website D',
+
+    title: 'Profesional Art Printing Data Of Microverse D',
+    modalTitle: 'Keeping track of hundreds of components Microverse website D',
+
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -114,13 +125,17 @@ const projects = [
     },
     LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
     LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+
+    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
+
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
   {
     id: 5,
-    title: 'Profesional Art Printing Data, Microverse E',
-    modalTitle: 'Keeping track of hundreds of Microvers components website E',
+
+    title: 'Profesional Art Printing Data Of Microverse E',
+    modalTitle: 'Keeping track of hundreds of components Microverse website E',
+
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -136,13 +151,17 @@ const projects = [
     },
     LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
     LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+
+    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
+
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
   {
     id: 6,
-    title: 'Profesional Art Printing Data, Microverse F',
-    modalTitle: 'Keeping track of hundreds of Microvers components website F',
+
+    title: 'Profesional Art Printing Data Of Microverse F',
+    modalTitle: 'Keeping track of hundreds of components Microverse website F',
+
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -158,7 +177,9 @@ const projects = [
     },
     LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
     LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+
+    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
+
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
 ];
@@ -204,7 +225,9 @@ function validateForm(e) {
     form.submit();
     localStorage.setItem('formObj', JSON.stringify(formObj));
   } else {
-    document.getElementById('validation_error_msg').innerHTML = 'Your email address should be in lowercase';
+
+    document.getElementById('validation_error_msg').innerHTML = 'Your email address needs to be lowercase.';
+
   }
 }
 
@@ -281,10 +304,14 @@ const loadProjects = () => {
 };
 
 window.onload = function () {
+
+  // loading projects in work section
   loadProjects();
 
+  // Validation form
   document.getElementById('contact_form').addEventListener('submit', validateForm);
 
+  // Save data when typed
   const formObj = JSON.parse(localStorage.getItem('formObj'));
   const formDataToStore = {
     name: '',
@@ -326,6 +353,8 @@ window.onload = function () {
       localStorage.setItem('formObj', JSON.stringify(formDataToStore));
     }
   });
+
+  // Get form data in local storag if it exist
 
   if (formObj) {
     document.getElementById('form_input1').value = formObj.name;
