@@ -48,7 +48,8 @@
  - Deployed to GitHub
  
  ## 👥 VITOESI ELIJAH
-  - GitHub: [@Ellyboi] (https://github.com/Ellyboi)
+
+  - GitHub: [@Ellyboi] (https://ellyboi.github.io)
   - Twitter: [@Elijahvitoesi] (https://twitter.com/Elijahvitoesi)
   - LinkedIn: [Vitoesi Elijah] (https://www.linkedin.com/in/vitoesi-elijah-61961611a/)
   - Gmail contact: vitoesitemitope@gmail.com
@@ -69,5 +70,7 @@ Give a ⭐️ if you like this project!
 - etc
 
 ## 📝 License
+
+ct is [MIT](./MIT.md) licensed.
 
 This project is [MIT](./LICENSE) licensed.
