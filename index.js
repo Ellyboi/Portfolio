@@ -225,8 +225,7 @@ function validateForm(e) {
     form.submit();
     localStorage.setItem('formObj', JSON.stringify(formObj));
   } else {
-
-    document.getElementById('validation_error_msg').innerHTML = 'Your email address needs to be lowercase.';
+    document.getElementById('validation_error_msg').innerHTML = 'All the alphabets in your email address should be in lowercase';
 
   }
 }
@@ -305,13 +304,14 @@ const loadProjects = () => {
 
 window.onload = function () {
 
+
   // loading projects in work section
   loadProjects();
 
-  // Validation form
+  // form Validation
   document.getElementById('contact_form').addEventListener('submit', validateForm);
 
-  // Save data when typed
+  // Data saved when typing
   const formObj = JSON.parse(localStorage.getItem('formObj'));
   const formDataToStore = {
     name: '',
