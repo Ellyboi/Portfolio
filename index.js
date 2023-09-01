@@ -31,11 +31,8 @@ const hideMenu = () => {
 const projects = [
   {
     id: 1,
-Title: 'Keeping track of hundreds of Microverse components website A',
-
-    title: 'Profesional Art Printing Data Of Microverse A',
-    modalTitle: 'Keeping track of hundreds of components Microverse website A',
-
+    title: 'Profesional Art Printing Data 1',
+    modalTitle: 'Keeping track of hundreds of components website 1',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -49,18 +46,15 @@ Title: 'Keeping track of hundreds of Microverse components website A',
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
-    LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-
-    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
-
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standards',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
   {
     id: 2,
-
-    title: 'Profesional Art Printing Data Of Microverse B',
-    modalTitle: 'Keeping track of hundreds of components Microverse website B',
+    title: 'Profesional Art Printing Data 2',
+    modalTitle: 'Keeping track of hundreds of components website 2',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -74,16 +68,15 @@ Title: 'Keeping track of hundreds of Microverse components website A',
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
-    LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-
-    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
   {
     id: 3,
-    title: 'Profesional Art Printing Data Of Microverse C',
-    modalTitle: 'Keeping track of hundreds of components Microverse website C',
+    title: 'Profesional Art Printing Data 3',
+    modalTitle: 'Keeping track of hundreds of components website 3',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -97,19 +90,15 @@ Title: 'Keeping track of hundreds of Microverse components website A',
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
-    LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-
-    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
-
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
   {
     id: 4,
-
-    title: 'Profesional Art Printing Data Of Microverse D',
-    modalTitle: 'Keeping track of hundreds of components Microverse website D',
-
+    title: 'Profesional Art Printing Data 4',
+    modalTitle: 'Keeping track of hundreds of components website 4',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -123,19 +112,15 @@ Title: 'Keeping track of hundreds of Microverse components website A',
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
-    LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-
-    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
-
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
   {
     id: 5,
-
-    title: 'Profesional Art Printing Data Of Microverse E',
-    modalTitle: 'Keeping track of hundreds of components Microverse website E',
-
+    title: 'Profesional Art Printing Data 5',
+    modalTitle: 'Keeping track of hundreds of components website 5',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -149,19 +134,15 @@ Title: 'Keeping track of hundreds of Microverse components website A',
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
-    LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-
-    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
-
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
   {
     id: 6,
-
-    title: 'Profesional Art Printing Data Of Microverse F',
-    modalTitle: 'Keeping track of hundreds of components Microverse website F',
-
+    title: 'Profesional Art Printing Data 6',
+    modalTitle: 'Keeping track of hundreds of components website 7',
     modalImage: 'img/snapshoot_Portfolio.png',
     modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
@@ -175,11 +156,9 @@ Title: 'Keeping track of hundreds of Microverse components website A',
       tech2: 'Bootstrap',
       tech3: 'Ruby on rails',
     },
-    LinkToLive: 'https://ellyboi.github.io/Desktop-portfolio-website/',
-    LinkToSource: 'https://github.com/Ellyboi/Desktop-portfolio-website',
-
-    description: 'The industry standard is a daily collection of privately personalized readings; there are no registrations or accounts required.',
-
+    LinkToLive: 'https://sfarida.github.io/portfolio/',
+    LinkToSource: 'https://github.com/SFarida/portfolio/',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     projectSkills: ['html', 'bootstrap', 'Ruby'],
   },
 ];
@@ -225,8 +204,7 @@ function validateForm(e) {
     form.submit();
     localStorage.setItem('formObj', JSON.stringify(formObj));
   } else {
-    document.getElementById('validation_error_msg').innerHTML = 'All the alphabets in your email address should be in lowercase';
-
+    document.getElementById('validation_error_msg').innerHTML = 'Your email address should be in lowercase';
   }
 }
 
@@ -303,15 +281,13 @@ const loadProjects = () => {
 };
 
 window.onload = function () {
-
-
   // loading projects in work section
   loadProjects();
 
-  // form Validation
+  // Validation form
   document.getElementById('contact_form').addEventListener('submit', validateForm);
 
-  // Data saved when typing
+  // Save data when typed
   const formObj = JSON.parse(localStorage.getItem('formObj'));
   const formDataToStore = {
     name: '',
@@ -327,7 +303,7 @@ window.onload = function () {
       formObj.name = name.value;
       localStorage.setItem('formObj', JSON.stringify(formObj));
     } else {
-      console.log('does not exist');
+      console.log("does not exist")
       formDataToStore.name = name.value;
       localStorage.setItem('formObj', JSON.stringify(formDataToStore));
     }
@@ -355,7 +331,6 @@ window.onload = function () {
   });
 
   // Get form data in local storag if it exist
-
   if (formObj) {
     document.getElementById('form_input1').value = formObj.name;
     document.getElementById('form_input2').value = formObj.email;
