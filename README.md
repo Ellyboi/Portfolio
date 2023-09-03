@@ -49,10 +49,9 @@
  
  ## 👥 VITOESI ELIJAH
 
-  - GitHub: [@Ellyboi] (https://ellyboi.github.io)
-  - Twitter: [@Elijahvitoesi] (https://twitter.com/Elijahvitoesi)
-  - LinkedIn: [Vitoesi Elijah] (https://www.linkedin.com/in/vitoesi-elijah-61961611a/)
-  - Gmail contact: vitoesitemitope@gmail.com
+  - GitHub: [@Ellyboi](https://ellyboi.github.io)
+  - Twitter: [@Elijahvitoesi](https://twitter.com/Elijahvitoesi)
+  - LinkedIn: [Vitoesi Elijah](https://www.linkedin.com/in/vitoesi-elijah-61961611a/)
 ## Future Features
    - Showcase
    - Form

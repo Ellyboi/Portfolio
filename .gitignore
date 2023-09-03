@@ -1,3 +1,8 @@
-# .gitignore
-node_modules/
+#Ignore DS Store File
+.DS_Store
 
+#Ignore Node Files
+node_modules
+
+#vscode files
+.vscode
