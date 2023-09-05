@@ -16,7 +16,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: var(--headers);
 }
 
 html {
@@ -57,12 +57,12 @@ header {
 }
 
 .logo-container p {
-  color: #000;
+  color: var(--headers);
   font-size: 18px;
   line-height: 16px;
   font-weight: 500;
   margin: 0;
-  text-shadow: #000;
+  color: var(--headers);
   text-decoration: overline;
 }
 
@@ -85,7 +85,7 @@ nav {
 }
 
 .hamburger-menu > span {
-  border-bottom: 2px solid var(--accent);
+  border-bottom: 2px solid var(--headers);
   width: 100%;
   display: block;
 }
@@ -374,7 +374,7 @@ nav {
 
 .portfolio-description-section .portfolio-tags ul > li {
   list-style-type: none;
-  border-right: 1px solid #555;
+  border-right: 1px solid #05e8f8;
   height: 100%;
   padding: 0 1vw;
 }
@@ -881,7 +881,7 @@ footer form {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, var(--dark), var(--light));
+    background-image: linear-gradient(to bottom, var(--light), var(--headers));
   }
 
   .active .menu-list {
