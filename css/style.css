@@ -2,9 +2,10 @@
 @import url("clash-display.css");
 
 :root {
-  --light: #07b0c2fb;
-  --dark: #0a1f33;
+  --light: #045861fb;
+  --dark: #ffffff;
   --accent: #ffffff;
+  --headers: #05e8f8;
 
   scroll-behavior: smooth;
 }
@@ -15,7 +16,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--dark);
+  color: #000;
 }
 
 html {
@@ -56,12 +57,12 @@ header {
 }
 
 .logo-container p {
-  color: var(--dark);
+  color: #000;
   font-size: 18px;
   line-height: 16px;
   font-weight: 500;
   margin: 0;
-  text-shadow: 1px 1px var(--accent);
+  text-shadow: #000;
   text-decoration: overline;
 }
 
@@ -112,7 +113,7 @@ nav {
   font-size: 48px;
   font-weight: 700;
   line-height: 72px;
-  color: var(--dark);
+  color: var(--headers);
   margin: 0;
 }
 
@@ -122,7 +123,7 @@ nav {
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
-  color: var(--accent);
+  color: var(--headers);
   vertical-align: middle;
 }
 
@@ -146,7 +147,7 @@ nav {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 10px 20px;
-  background-color: var(--accent);
+  background-color: var(--headers);
   color: var(--light);
   border: none;
   border-radius: 4px;
@@ -188,6 +189,7 @@ nav {
   display: flex;
   flex-direction: column;
   text-align: left;
+  color: #fff;
 }
 
 .feature-container h3 {
@@ -195,7 +197,7 @@ nav {
   font-size: 12px;
   font-weight: 500;
   line-height: 24px;
-  color: var(--accent);
+  color: var(--headers);
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -288,7 +290,7 @@ nav {
   text-transform: uppercase;
   font-weight: 500;
   display: inline;
-  color: var(--dark);
+  color: #05e8f8;
 }
 
 #works-section {
@@ -336,7 +338,7 @@ nav {
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
-  color: var(--accent);
+  color: var(--headers);
 }
 
 .portfolio-works .descriptive-text {
@@ -389,7 +391,7 @@ nav {
 }
 
 .logo-container p:hover {
-  color: var(--accent);
+  color: var(--headers);
 }
 
 button {
@@ -407,8 +409,8 @@ button:enabled {
 }
 
 button:hover {
-  color: var(--accent);
-  border-color: var(--accent);
+  color: var(--headers);
+  border-color: var(--headers);
 }
 
 footer {
@@ -425,7 +427,7 @@ footer {
   font-weight: 500;
   margin-top: 120px;
   margin-bottom: 24px;
-  color: var(--accent);
+  color: var(--headers);
 }
 
 #contact-form-text {
@@ -584,7 +586,7 @@ footer form {
 
   .menu-list li:hover {
     text-decoration: underline;
-    text-shadow: 1px 1px var(--accent);
+    text-shadow: 1px 1px var(--headers);
   }
 
   .menu-list li:last-child {
@@ -793,6 +795,7 @@ footer form {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 88px;
+    color: #ffffff;
   }
 
   #contact-form {
@@ -861,6 +864,7 @@ footer form {
   #send-email {
     padding-bottom: 0;
     margin: 0;
+    color: #000;
   }
 
   #last-line {
@@ -942,7 +946,7 @@ footer form {
 .modal {
   margin: 0;
   padding: 24px;
-  background: rgba(255, 255, 255, 0.7);
+  background: #015f5ffb;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   text-align: center;
@@ -950,7 +954,7 @@ footer form {
 }
 
 .modal::backdrop {
-  background-color: rgba(40, 40, 40, 0.7);
+  background-color: #058c9bfb;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
@@ -959,10 +963,10 @@ footer form {
   position: absolute;
   top: 20px;
   right: 39px;
-  border: 1px solid var(--accent);
+  border: 1px solid var(--headers);
   padding: 5px;
   border-radius: 50%;
-  background-color: var(--accent);
+  background-color: var(--headers);
 }
 
 .modal-header {
@@ -1006,11 +1010,11 @@ footer form {
   text-align: left;
   color: var(--dark);
   padding: 14px;
-  border-right: 1px solid #81818c;
+  border-right: 1px solid #97b3b8;
 }
 
 .modal-tech-tag-1 {
-  border-left: 1px solid #81818c;
+  border-left: 1px solid #97b3b8;
 }
 
 .modal-button-container {
@@ -1039,8 +1043,8 @@ footer form {
 }
 
 .modal-button-container a:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--headers);
+  color: var(--headers);
 }
 
 /* modal responsive */
@@ -1073,3 +1077,9 @@ footer form {
 #warning-message {
   margin-top: 20px;
 }
+
+#contact-form-text {
+  color: #fff;
+}
+
+
