@@ -1,296 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XRH4BFJ5WK"
-    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Elijah Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="😎" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/popup.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet" />
+    <!-- Google tag (gtag.js) FOR GOOGLE ANALYTICS-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJJVXB4L13"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
-      gtag("config", "G-XRH4BFJ5WK");
+      gtag("config", "G-GJJVXB4L13");
     </script>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vitoesi Elijah's Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js" integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
 
-  <body>
-    <header>
-      <div class="menu-container">
-        <a class="logo-container" href="#">
-          <p>VE</p>
-        </a>
-        <nav class="nav-bar">
-          <ul class="menu-list">
-            <li class="link">
-              <a href="#works">Works</a>
-            </li>
-            <li class="link">
-              <a href="#about">About</a>
-            </li>
-            <li class="link">
-              <a href="#contact-form-text">Contact</a>
-            </li>
-          </ul>
-          <a id="email-icon" href="mailto:vitoesitemitope@gmail.com"
-            ><img src="assets/envelope-solid.svg" alt="Email me button icon"
-          /></a>
-          <a href="#" class="hamburger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section class="tagline-container" id="about">
-        <div class="primary-text-container">
-          <h1>Vitoesi Elijah</h1>
-        </div>
-        <div class="supporting-text-container">
-          <h2>Full-Stack Web Developer</h2>
-        </div>
-      </section>
-      <section class="description-text">
-        <p>
-          "I specialize in building products, features, and websites.
-          Feel free to explore my portfolio and experience. If you find something 
-          you like or have a project in mind, please don't hesitate to get in touch with me. 
-          I'm here to help!"
-        </p>
-        <a  
-          href="https://docs.google.com/document/d/e/2PACX-1vTHnUn6VK6NWhvIqydek-yFXZlSgDpjObeEy7RunvyFcgvwqORs10j2xUMOk4kR1ZdU3ZYaQnltHtEW/pub"
-          id="resume-button"
-          target="_blank"
-          >Get my resume</a
-        >
-      </section>
+  <body class="body">
+    <section class="firstpage">
+      <nav class="nav">
+        <p class="welcome">Welcome</p>
+        <a href="#"><img class="hamburger" src="./images/Union.png" alt="hamburger menu drawer" /></a>
+      </nav>
 
-      <hr class="main-separator" />
+      <div class="wrapper">
+        <ul class="header-mobile nav-items">
+          <li class="header-mobile-text item"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+          <li class="header-mobile-text item"><a class="nav-link" href="#About">About</a></li>
+          <li class="header-mobile-text item"><a class="nav-link" href="#Contact">Contact</a></li>
+        </ul>
 
-      <section class="personel-feature-container">
-        <div class="flex-container">
-          <div class="feature-container">
-            <h3>Front-end</h3>
-            <ul>
-              <li>
-                <p id="javascript">JavaScript</p>
+        <header class="header">
+          <div class="header-desktop" data-visible="false">
+            <div class="cross-icon">
+              <img src="./images/cross-icon.png" alt="cross-button" />
+            </div>
+
+            <ul class="popup-list">
+              <li id="portfolio" class="header-desktop-text abcd">
+                <a href="#">Portfolio</a>
               </li>
-              <li>
-                <p>React</p>
+              <li id="about" class="header-desktop-text">
+                <a href="#About">About</a>
               </li>
-              <li>
-                <p>Redux</p>
-              </li>
-              <li>
-                <p>Bootstrap</p>
-              </li>
-              <li>
-                <p class="last-child">HTML & CSS</p>
+              <li id="contact" class="header-desktop-text">
+                <a href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
-          <div class="feature-container">
-            <h3>Back-end</h3>
-            <ul>
+        </header>
+        <div id="main-header">
+          <h1 class="head1 intro">
+            Hey there. I’m Elijah
+            <span class="green-color">A Full-stack web developer</span>
+          </h1>
+          <p class="intro-exp">I possess a robust background in crafting efficient software applications for the global market, accumulating over 1300+ hours of hands-on experience. In addition to my development expertise, I've also played a mentoring role, successfully guiding 10+ junior developers to meet specific objectives within tight timeframes. My skill set is marked by proficiency in React, Redux, JavaScript, Ruby on Rails, Figma, and various Animation Libraries, making me a versatile and accomplished software developer.</p>
+          <div class="bottom-img">
+            <ul class="group-icons">
               <li>
-                <p>Ruby</p>
+                <a href="https://twitter.com/ElijahVitoesi"><img src="./images/twitter.svg" alt="link to my twitter" /></a>
               </li>
               <li>
-                <p>Rails</p>
+                <a href="https://www.linkedin.com/in/elijah-vitoesi/"><img src="./images/linkdin.svg" alt="link to my linkedin" /></a>
               </li>
               <li>
-                <p>PostgreSQL</p>
+                <a href="https://medium.com/@vitoesitemitope"><img src="./images/medium.svg" alt="link to my medium" /></a>
+              </li>
+              <li>
+                <a href="https://github.com/Ellyboi"><img src="./images/github.svg" alt="link to my github" /></a>
+              </li>
+              <li>
+                <a href="https://wellfound.com/u/elijah-vitoesi"><img src="./images/angellist.svg" alt="link to my angellist" /></a>
               </li>
             </ul>
+            <div class="go-down-container">
+              <a class="go-down" href="#abc"><img src="./images/comedown.png" alt="" /></a>
+            </div>
           </div>
-          <div class="feature-container">
-            <h3>Methods</h3>
-            <ul>
-              <li>
-                <p>Git</p>
-              </li>
-              <li>
-                <p>Gitflow</p>
-              </li>
-              <li>
-                <p>Webpack</p>
-              </li>
-              <li>
-                <p>RSpec</p>
-              </li>
-              <li>
-                <p>CapyBara</p>
-              </li>
-              <li>
-                <p>Rswag</p>
-              </li>
-              <li class="last-child">
-                <p>Linting</p>
-              </li>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div id="Portfolio" class="recent container">
+        <h2 id="abc">
+          My Recent <br />
+          Works
+        </h2>
+        <img src="./images/line.png" alt="" />
+      </div>
+      <div class="grid container"></div>
+
+      <div class="aboutme" id="About">
+        <h2 class="myself">About me</h2>
+        <p class="exp">I have a strong background in remote development, excelling academically with a consistent 92% score and demonstrating my ability to work intelligently and achieve goals effectively. I prioritize completing tasks ahead of deadlines and have successfully worked with individuals across different time zones <span style="font-weight: bold">(UTC-6, UTC+1, UTC+5)</span> showcasing my adaptability
+           and communication skills in remote collaborations.</p>
+        <a href="https://docs.google.com/document/d/1j-UJ1Qd-CoDC-KOR2iQkbGrxZhYf8BwgGGMdUB_PnJo/edit?usp=sharing" target="_blank" class="resume-button">Get My Resume</a>
+      </div>
+
+      <div class="container" id="langs">
+        <div class="grid">
+          <div class="languages center">
+            <img class="lang-icon" src="./images/group-icon.png" alt="my specialized languages" />
+            <h3 class="lang-heading">Front-end</h3>
+            <ul class="lang-list mr-LR mr-B">
+              <li class="langs-name">React</li>
+              <li class="langs-name">Redux</li>
+              <li class="langs-name">JavaScript</li>
+              <li class="langs-name">HTML</li>
+              <li class="langs-name">CSS</li>
+              <li class="langs-name">Figma</li>
+              <li class="langs-name">Bootstrap</li>
+            </ul>
+          </div>
+
+          <div class="languages center">
+            <img class="lang-icon" src="./images/fricon.png" alt="my specialized Frameworks" />
+            <h3 class="lang-heading">Back-end and Testing</h3>
+            <ul class="lang-list mr-LR">
+              <li class="langs-name">Ruby on rails</li>
+              <li class="langs-name">PostgreSQL</li>
+              <li class="langs-name">Ruby</li>
+              <li class="langs-name">RSpec</li>
+              <li class="langs-name">Jest</li>
+              <li class="langs-name">Capybara</li>
+              <li class="langs-name">Selenium</li>
+              <li class="langs-name">Rswag</li>
+            </ul>
+          </div>
+
+          <div class="languages center">
+            <img class="lang-icon" src="./images/skill-icon.png" alt="skills i have mastered" />
+            <h3 class="lang-heading">Other Professional Skills</h3>
+            <ul class="lang-list">
+              <li class="langs-name">Git, GitHub</li>
+              <li class="langs-name">Heroku, Netlify</li>
+              <li class="langs-name">Code Reviewer</li>
+              <li class="langs-name">Remote Pair-Programming</li>
+              <li class="langs-name">Mentoring, Teamwork</li>
+              <li class="langs-name">Dev Tools</li>
+              <li class="langs-name">Content Writting</li>
+              <li class="langs-name">WordPress</li>
             </ul>
           </div>
         </div>
-      </section>
-
-      <hr class="main-separator feature-icon" />
-
-      <section class="social-media-container">
-        <div id="desktop-down-arrow" class="work-arrow-container">
-          <a href="#works-section">
-            <img src="assets/arrow-down-solid.svg" alt="Scroll down arrow" />
-            <p>Work</p>
-          </a>
-        </div>
-        <ul class="social-media">
-          <li>
-            <a href="https://github.com/Ellyboi" target="_blank">
-              <img src="assets/github.svg" alt="github.com logo" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/elijah-vitoesi/"
-              target="_blank"
-            >
-              <img src="assets/linkedin.svg" alt="linkedin.com logo" />
-            </a>
-          </li>
-
-          <li>
-            <a href="https://wellfound.com/u/elijah-vitoesi" target="_blank">
-              <img src="assets/angellist.svg" alt="angellist logo" />
-            </a>
-          </li>
-
-          <li>
-            <a href="https://twitter.com/ElijahVitoesi" target="_blank">
-              <img src="assets/twitter.svg" alt="Twitter Logo" />
-            </a>
-          </li>
-
-          <li>
-            <a href="https://medium.com/@vitoesitemitope" target="_blank">
-              <img src="assets/medium.svg" alt="Medium.com logo" />
-            </a>
-          </li>
-        </ul>
-        <div class="work-arrow-container">
-          <a href="#works-section">
-            <img src="assets/arrow-down-solid.svg" alt="Scroll down arrow" />
-            <p>Work</p>
-          </a>
-        </div>
-      </section>
-
-      <section class="works-header-wrapper" id="works">
-        <h2>My Recent Works</h2>
-      </section>
-      <hr class="main-separator works-section" id="works-section" />
-      <!-- Works section starts -->
-      <div class="background-container">
-        <section class="portfolio-works" id="portfolio-works"></section>
       </div>
-    </main>
+      <footer class="footer">
+        <div class="lastpage container">
+          <div class="conclusion-text center">
+            <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+          </div>
+          <form id="Contact" class="contact" action="https://formspree.io/f/mlezlqor" method="post">
+            <label for="full-name"></label>
+            <input title="type your full name" class="info" id="full-name" name="Name" type="text" placeholder="Full name" maxlength="30" required />
 
-    <footer id="contact">
-      <h2 id="contact-form-heading">Let's Chat</h2>
-      <p id="contact-form-text">
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I'd love to help
-        with it.
-      </p>
-      <form
-        id="contact-form"
-        action="https://formspree.io/f/mwkyqjql"
-        method="post"
-      >
-        <ul>
+            <label for="email-address"></label>
+            <input title="type your email address" id="email-address" class="info" name="Email" type="email" placeholder="Email address" required />
+
+            <label for="text"></label>
+            <textarea class="textarea" id="text" name="Text" cols="30" rows="10" maxlength="500" placeholder="Enter text area" required></textarea>
+
+            <button class="resume-button contact-btn" type="submit">Get in touch</button>
+            <div class="error hide">
+              <p class="error-message"></p>
+            </div>
+          </form>
+        </div>
+        <ul class="contact-lists">
           <li>
-            <input
-              id="name"
-              name="user-name"
-              type="text"
-              maxlength="30"
-              placeholder="Name"
-              required
-            />
+            <a href="https://twitter.com/ElijahVitoesi"><img src="./images/twitter.svg" alt="link to my twitter" /></a>
           </li>
           <li>
-            <input
-              type="email"
-              id="email"
-              name="user-email"
-              placeholder="Email"
-              required
-            />
+            <a href="https://www.linkedin.com/in/elijah-vitoesi/"><img src="./images/linkdin.svg" alt="link to my linkedin" /></a>
           </li>
           <li>
-            <textarea
-              name="user-message"
-              id="msg"
-              maxlength="500"
-              placeholder="Message"
-              required
-            ></textarea>
+            <a href="https://medium.com/@vitoesitemitope"><img src="./images/medium.svg" alt="link to my medium" /></a>
           </li>
-          <li class="submit-button">
-            <button id="contact-submit" type="submit">Send</button>
-            <span id="warning-message"></span>
+          <li>
+            <a href="https://github.com/Ellyboi"><img src="./images/github.svg" alt="link to my github" /></a>
+          </li>
+          <li>
+            <a href="https://wellfound.com/u/elijah-vitoesi"><img src="./images/angellist.svg" alt="link to my angellist" /></a>
           </li>
         </ul>
-      </form>
-      <hr id="full-width-line" />
-      <div class="social-media-bottom-container">
-        <ul class="social-media">
-          <li>
-            <a href="https://github.com/Ellyboi" target="_blank">
-              <img src="assets/github.svg" alt="github.com logo" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/elijah-vitoesi/"
-              target="_blank"
-            >
-              <img src="assets/linkedin.svg" alt="linkedin.com logo" />
-            </a>
-          </li>
+        <p class="email">vitoesitemitope@gmail.com</p>
+      </footer>
+    </section>
 
-          <li>
-            <a href="https://wellfound.com/u/elijah-vitoesi" target="_blank">
-              <img src="assets/angellist.svg" alt="angellist logo" />
-            </a>
-          </li>
-
-          <li>
-            <a href="https://twitter.com/ElijahVitoesi" target="_blank">
-              <img src="assets/twitter.svg" alt="Twitter Logo" />
-            </a>
-          </li>
-
-          <li>
-            <a href="https://medium.com/@vitoesitemitope" target="_blank">
-              <img src="assets/medium.svg" alt="Medium.com logo" />
-            </a>
-          </li>
-        </ul>
-
-        <a id="send-email" href="mailto:vitoesitemitope@gmail.com"
-          >vitoesitemitope@gmail.com</a
-        >
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/form-validation.js" type="module"></script>
+    <script src="./js/animate.js" async></script>
+    <!-- <script src="./js/animate.js" defer></script> -->
   </body>
 </html>
