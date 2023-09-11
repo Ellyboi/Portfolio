@@ -254,13 +254,13 @@ body {
 
 .grid {
   /* display: grid; */
+
   /* grid-template-columns: 1fr; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   background: #fff;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -733,6 +733,7 @@ body {
     grid-gap: 24px; */
   }
 }
+
 @media screen and (min-width: 768px) {
   nav .nav-items {
     background-color: var(--bg-color);
