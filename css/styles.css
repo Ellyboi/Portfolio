@@ -726,15 +726,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .grid {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    grid-gap: 24px; */
-  }
-}
-
-@media screen and (min-width: 768px) {
   nav .nav-items {
     background-color: var(--bg-color);
     display: flex;
