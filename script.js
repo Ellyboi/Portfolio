@@ -46,7 +46,7 @@ const worksArray = [
     button_text: 'See Project',
     // modal data
     live_link: 'https://vecs-school.onrender.com',
-    github_source: 'https://github.com/Ellyboi/vecs-school-frontend',
+    github_source: 'https://github.com/Ellyboi/vecs-school-backend',
   },
   {
     portfolio_image: 'assets/reactcapstone.png',
